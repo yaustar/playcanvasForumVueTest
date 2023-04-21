@@ -1,7 +1,7 @@
 {
     "application_properties": {
         "antiAlias": true,
-        "fillMode": "FILL_WINDOW",
+        "fillMode": "NONE",
         "resolutionMode": "AUTO",
         "height": 720,
         "width": 1280,

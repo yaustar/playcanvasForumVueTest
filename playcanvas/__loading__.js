@@ -1,9 +1,10 @@
 pc.script.createLoadingScreen(function (app) {
     var showSplash = function () {
         // splash wrapper
+        var appWrapper = document.getElementById('playcanvas-wrapper');
         var wrapper = document.createElement('div');
         wrapper.id = 'application-splash-wrapper';
-        document.body.appendChild(wrapper);
+        appWrapper.appendChild(wrapper);
 
         // splash
         var splash = document.createElement('div');
@@ -12,7 +13,7 @@ pc.script.createLoadingScreen(function (app) {
         splash.style.display = 'none';
 
         var logo = document.createElement('img');
-        logo.src = 'https://d3tj5wcy4685ia.cloudfront.net/20200110_FLLottery/logo.png';
+        logo.src = ASSET_PREFIX + 'logo.png';
         splash.appendChild(logo);
         logo.onload = function () {
             splash.style.display = 'block';
@@ -35,7 +36,7 @@ pc.script.createLoadingScreen(function (app) {
 
     var setProgress = function (value) {
         var bar = document.getElementById('progress-bar');
-        if(bar) {
+        if (bar) {
             value = Math.min(1, Math.max(0, value));
             bar.style.width = value * 100 + '%';
         }
@@ -58,9 +59,9 @@ pc.script.createLoadingScreen(function (app) {
 
             '#application-splash {',
             '    position: absolute;',
-            '    top: calc(50% - 128px);',
-            '    width: 256px;',
-            '    left: calc(50% - 128px);',
+            '    top: calc(50% - 28px);',
+            '    width: 264px;',
+            '    left: calc(50% - 132px);',
             '}',
 
             '#application-splash img {',
@@ -85,14 +86,15 @@ pc.script.createLoadingScreen(function (app) {
             '        left: calc(50% - 85px);',
             '    }',
             '}'
-        ].join("\n");
+
+        ].join('\n');
 
         var style = document.createElement('style');
         style.type = 'text/css';
         if (style.styleSheet) {
-          style.styleSheet.cssText = css;
+            style.styleSheet.cssText = css;
         } else {
-          style.appendChild(document.createTextNode(css));
+            style.appendChild(document.createTextNode(css));
         }
 
         document.head.appendChild(style);
@@ -102,7 +104,7 @@ pc.script.createLoadingScreen(function (app) {
     createCss();
 
     showSplash();
-        
+
     app.on('preload:end', function () {
         app.off('preload:progress');
     });

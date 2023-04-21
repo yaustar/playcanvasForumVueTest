@@ -33,7 +33,9 @@
             // Disable long-touch select on iOS devices
             canvas.style['-webkit-user-select'] = 'none';
 
-            document.body.appendChild(canvas);
+            // Find the wrapper
+            wrapper = document.getElementById('playcanvas-wrapper');
+            wrapper.appendChild(canvas);
 
             return canvas;
         },
@@ -42,26 +44,26 @@
         resizeCanvas: function (app, canvas) {
             canvas.style.width = '';
             canvas.style.height = '';
-            app.resizeCanvas(canvas.width, canvas.height);
+            app.resizeCanvas(wrapper.clientWidth, wrapper.clientHeight);
 
-            var fillMode = app._fillMode;
+            // var fillMode = app._fillMode;
 
-            if (fillMode == pc.FILLMODE_NONE || fillMode == pc.FILLMODE_KEEP_ASPECT) {
-                if ((fillMode == pc.FILLMODE_NONE && canvas.clientHeight < window.innerHeight) || (canvas.clientWidth / canvas.clientHeight >= window.innerWidth / window.innerHeight)) {
-                    canvas.style.marginTop = Math.floor((window.innerHeight - canvas.clientHeight) / 2) + 'px';
-                } else {
-                    canvas.style.marginTop = '';
-                }
-            }
+            // if (fillMode == pc.FILLMODE_NONE || fillMode == pc.FILLMODE_KEEP_ASPECT) {
+            //     if ((fillMode == pc.FILLMODE_NONE && canvas.clientHeight < window.innerHeight) || (canvas.clientWidth / canvas.clientHeight >= window.innerWidth / window.innerHeight)) {
+            //         canvas.style.marginTop = Math.floor((window.innerHeight - canvas.clientHeight) / 2) + 'px';
+            //     } else {
+            //         canvas.style.marginTop = '';
+            //     }
+            // }
 
             lastWindowHeight = window.innerHeight;
             lastWindowWidth = window.innerWidth;
 
             // Work around when in landscape to work on iOS 12 otherwise
             // the content is under the URL bar at the top
-            if (this.iosVersion && this.iosVersion[0] <= 12) {
-                window.scrollTo(0, 0);
-            }
+            // if (this.iosVersion && this.iosVersion[0] <= 12) {
+            //     window.scrollTo(0, 0);
+            // }
         },
 
         reflow: function (app, canvas) {
@@ -94,7 +96,7 @@
 
 
 (function () {
-    var canvas, devices, app;
+    var canvas, devices, app, wrapper;
 
     var createInputDevices = function (canvas) {
         var devices = {
@@ -187,8 +189,8 @@
 
             configureCss(app._fillMode, app._width, app._height);
 
-            const ltcMat1 = []; 
-            const ltcMat2 = []; 
+            const ltcMat1 = [];
+            const ltcMat2 = [];
 
             if (ltcMat1.length && ltcMat2.length && app.setAreaLightLuts.length === 2) {
                 app.setAreaLightLuts(ltcMat1, ltcMat2);
