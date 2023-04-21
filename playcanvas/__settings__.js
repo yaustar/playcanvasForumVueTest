@@ -1,6 +1,6 @@
 window.ASSET_PREFIX = "";
 window.SCRIPT_PREFIX = "";
-window.SCENE_PATH = "1723704.json";
+window.SCENE_PATH = "1725123.json";
 window.CONTEXT_OPTIONS = {
     'antialias': true,
     'alpha': true,
@@ -8,7 +8,7 @@ window.CONTEXT_OPTIONS = {
     'preferWebGl2': true,
     'powerPreference': "default"
 };
-window.SCRIPTS = [ 130106260, 130106261, 130106267, 130106257, 130106254, 130106259, 130106250, 130106255, 130106264, 130106258, 130106281 ];
+window.SCRIPTS = [ 130374796, 130374773, 130374783, 130374786, 130374792, 130374793, 130374775, 130374779, 130374787, 130374789, 130374804 ];
 window.CONFIG_FILENAME = "config.json";
 window.INPUT_SETTINGS = {
     useKeyboard: true,
@@ -18,4 +18,5 @@ window.INPUT_SETTINGS = {
 };
 pc.script.legacy = false;
 window.PRELOAD_MODULES = [
+    {'moduleName' : 'Ammo', 'glueUrl' : 'files/assets/130375290/1/ammo.wasm.js', 'wasmUrl' : 'files/assets/130375291/1/ammo.wasm.wasm', 'fallbackUrl' : 'files/assets/130375289/1/ammo.js', 'preload' : true},
 ];
