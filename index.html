@@ -1,0 +1,19 @@
+
+<body>
+  <h1>Check</h1>
+  <!-- Vue.JS app root -->
+  <div id="app"> Tester</div>
+  <!-- PlayCanvas -->
+  <link rel="manifest" href="./playcanvas/manifest.json">
+  <script src="./playcanvas/playcanvas-stable.min.js"></script>
+  <script src="./playcanvas/__settings__.js"></script>
+  <script>
+    // PlayCanvas project location settings
+    var PREFIX = '/playcanvas/';
+    var CONFIG_FILENAME = PREFIX + 'config.json';
+    var ASSET_PREFIX = PREFIX;
+    var SCRIPT_PREFIX = PREFIX;
+  </script>
+  <script src="./playcanvas/__start__.js" defer></script>
+  <script src="./playcanvas/loading.js" defer></script>
+</body>
