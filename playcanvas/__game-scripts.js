@@ -28,11 +28,11 @@ Follow.prototype.update = function(dt) {
     pos.z = Math.max(2, pos.z + 0.75 * this.distance);
     pos.x = 0;
     pos.y = 3;
-    
+
 
         this.vec.lerp(this.vec, pos, 0.1);
-        this.entity.setPosition(this.vec); 
-    
+        this.entity.setPosition(this.vec);
+
 };
 
 
@@ -43,8 +43,8 @@ var Teleportable = pc.createScript('teleportable');
 Teleportable.prototype.initialize = function() {
     this.lastTeleportFrom = null;
     this.lastTeleportTo = null;
-    this.lastTeleport = Date.now(); 
-    this.startPosition = this.entity.getPosition().clone();       
+    this.lastTeleport = Date.now();
+    this.startPosition = this.entity.getPosition().clone();
     this.app.on('app:teleportRequest', this.teleportRequestReceivedHandler, this);
 };
 
@@ -74,7 +74,7 @@ Teleportable.prototype.teleport = function(from, to, randomizeX) {
         position.y = this.startPosition.y;
         position.z = this.startPosition.z;
     }
-   
+
     if(randomizeX === true){
         var r = Math.random() * 0.3;
         position.x += (Math.random() > 0.5? -r : r);
@@ -100,7 +100,7 @@ Teleport.prototype.initialize = function() {
     this.entity.collision.on('triggerenter', this.onTriggerEnter, this);
 };
 
-Teleport.prototype.onTriggerEnter = function (otherEntity) { 
+Teleport.prototype.onTriggerEnter = function (otherEntity) {
     this.app.fire('app:teleportRequest', otherEntity);
 };
 
@@ -138,7 +138,7 @@ Score.prototype.onTriggerEnter = function() {
     var m, s, i, self = this;
     if(this.points > 0)this.app.fire('app:score', this.points);
     if(this.freeBall === true)this.app.fire('app:freeBall');
-    
+
     if(this.scoreIndicator !== undefined){
         s = this.scoreIndicator;
         i = 0;
@@ -153,7 +153,7 @@ Score.prototype.onTriggerEnter = function() {
 };
 
 Score.prototype.killBlink = function(){
-    clearTimeout(this.blinkTimeout); 
+    clearTimeout(this.blinkTimeout);
     if(this.scoreIndicator)(this.scoreIndicator.model || this.scoreIndicator.element).enabled = true;
 };
 
@@ -187,7 +187,7 @@ Main.prototype.initialize = function() {
     this.score = 0;
     this.initGame = true;
     this.totalBalls +=1;
-    
+
     //this.hideScore = this.hideScore.bind(this);
     this.checkGameOver = this.checkGameOver.bind(this);
     this.alertRestart = this.alertRestart.bind(this);
@@ -200,7 +200,7 @@ Main.prototype.initialize = function() {
     this.app.on('app:score', this.scoreReceivedHandler, this);
     this.app.on('app:ballReturned', this.countBall, this);
     this.app.on('app:freeBall', this.receiveFreeBallHandler, this);
-    
+
     this.restartGame();
     this.setBallCount(this.totalBalls);
     this.initGame = false;
@@ -217,7 +217,7 @@ Main.prototype.restartGame = function(e){
     this.setScore(0);
     this.hideMessage();
     this.recordedRollsArray = [];
-    
+
     setTimeout(this.alertRestart, 10);
 };
 
@@ -232,11 +232,11 @@ Main.prototype.receiveFreeBallHandler = function(){
 
 Main.prototype.countBall = function(e){
     var i = (this.totalBalls - this.ballsLeft);
-    
+
     if(this.recordedRollsArray[i] !== true && this.ballsLeft < this.totalBalls){
-        window.MobileFuse.sendMessage('roll' + i);    
-    } 
-    
+        window.MobileFuse.sendMessage('roll' + i);
+    }
+
     this.recordedRollsArray[i] = true;
 
     this.changeBallCount(-1);
@@ -262,7 +262,7 @@ Main.prototype.checkGameOver = function(i){
         this.blink(this.scoreEntity);
         this.blink(this.ballCountEntity);
         window.MobileFuse.sendMessage('gameOver');
-        
+
         var s = window.MobileFuse.PC_CONFIG.spanish === true? 'FIN DE LA\nPARTIDA': 'GAME\nOVER';
         this.gameOverMessage = this.showMessage(s, -1);
     }
@@ -274,7 +274,7 @@ Main.prototype.scoreReceivedHandler = function(points){
 
 Main.prototype.setScore = function(points) {
     this.score = points;
-    
+
     if(this.scoreEntity)this.scoreEntity.element.text = this.score + 'X';
 };
 
@@ -355,13 +355,13 @@ DragRoll.prototype.initialize = function () {
         this.app.mouse.on(pc.EVENT_MOUSEDOWN, this.mouseDownHandler, this);
         this.app.mouse.on(pc.EVENT_MOUSEUP, this.mouseUpHandler, this);
     }
-    
+
     this.app.mouse.disableContextMenu();
     this.app.keyboard.on(pc.EVENT_KEYDOWN, this.resetPosition, this);
     this.entity.on('teleportable:reposition', this.repositionHandler, this);
     this.app.on('app:gameOver', this.gameOverHandler, this);
     this.app.on('app:restartGame', this.gameRestartHandler, this);
-    this.repositionHandler();    
+    this.repositionHandler();
 };
 
 DragRoll.prototype.update = function(){
@@ -377,7 +377,7 @@ DragRoll.prototype.resetPosition = function(e){
     e.event.preventDefault();
 };
 
-DragRoll.prototype.repositionHandler = function(e){    
+DragRoll.prototype.repositionHandler = function(e){
     var entityPos = this.entity.getPosition();
     this.cursorVelArray = [];
     this.side0 = this.side1 = 0;
@@ -397,7 +397,7 @@ DragRoll.prototype.mouseDownHandler = function (e) {
     if(this.enabled === false)return;
     if(e.button !== pc.MOUSEBUTTON_LEFT)return;
     this.app.mouse.on(pc.EVENT_MOUSEMOVE, this.cursorMoveHandler, this);
-    this.cursorMoveHandler(e);  
+    this.cursorMoveHandler(e);
 };
 
 DragRoll.prototype.touchEndHandler = function (e) {
@@ -413,13 +413,13 @@ DragRoll.prototype.mouseUpHandler = function (e) {
     }
 };
 
-DragRoll.prototype.cursorMoveHandler = function(e){  
+DragRoll.prototype.cursorMoveHandler = function(e){
     if(this.app.touch){
         this.doRayCast(e.changedTouches? e.changedTouches[0] : e);
     }else{
         this.doRayCast(e);
     }
-    
+
     this.dragging = true;
 };
 
@@ -439,7 +439,7 @@ DragRoll.prototype.doRayCast = function (screenPosition) {
             this.arrowEntity.setLocalScale(hyp * 0.75, 1, hyp * 1.8);
             this.arrowEntity.setLocalEulerAngles(0,angle,0);
         }
-    }    
+    }
 };
 
 DragRoll.prototype.endDrag = function (x, y) {
@@ -475,7 +475,7 @@ DragRollTarget.prototype.initialize = function() {
 
 // update code called every frame
 DragRollTarget.prototype.update = function(dt) {
-    
+
 };
 
 // swap method called for script hot-reloading
@@ -509,7 +509,7 @@ Clickable.prototype.doRayCast = function (screenPosition) {
 
     if (result && result.entity.name === this.entity.name) {
         window.MobileFuse.sendMessage(result.entity.name +'Tap');
-    }    
+    }
 };
 
 
@@ -523,32 +523,32 @@ SwitchingTextures.attributes.add('emissive', { type: 'boolean',  default: false,
 SwitchingTextures.attributes.add("textureIndex", {type: "number", default: 0, title: "Texture Index"});
 
 // initialize code called once per entity
-SwitchingTextures.prototype.initialize = function() { 
+SwitchingTextures.prototype.initialize = function() {
     this.setInitialTextures = this.setInitialTextures.bind(this);
     this.initializeTextureAssignment = this.initializeTextureAssignment.bind(this);
-        
+
     setTimeout(this.initializeTextureAssignment, 50);
 };
 
 SwitchingTextures.prototype.initializeTextureAssignment = function(){
     try{
-        // check for JustAd config texture data         
+        // check for JustAd config texture data
         this.configTextureData = window.MobileFuse.PC_CONFIG.textures;
         this.app.loader.getHandler("texture").crossOrigin = "anonymous";
         this.changeOnSpin = (this.configTextureData.changeOnSpin === true);
         this.loadedTextures = 0;
         this.texturesArray = [];
         this.entity.texturesLoaded = false;
-        this.emissive = (this.configTextureData.emissive === true);  
-        
+        this.emissive = (this.configTextureData.emissive === true);
+
         this.alertReady = this.alertReady.bind(this);
-        
+
         if(Array.isArray(this.configTextureData.imageNames[0])){
             this.imageNamesArray = this.configTextureData.imageNames[this.entity.baseEntityIndex].slice();
-        }else{    
+        }else{
             this.imageNamesArray = this.configTextureData.imageNames.slice();
         }
-                
+
         for(var i = 0; i < this.imageNamesArray.length; i++){
             console.log(this.textureIndex || i, this.textureIndex, i);
             var asset = new pc.Asset("texture_"+(this.entity.baseEntityIndex || 0)+'-'+ (this.textureIndex || i), "texture", { url: this.configTextureData.imageFolder + this.imageNamesArray[this.textureIndex || i] });
@@ -561,7 +561,7 @@ SwitchingTextures.prototype.initializeTextureAssignment = function(){
         //If MobileFuse.PC_CONFIG config data is not present.
         //Make a copy of textures, which will be rotated, if the number of textures is greater than the number of panels
         this.texturesArray = this.textures.slice();
-        setTimeout(this.setInitialTextures, 50); 
+        setTimeout(this.setInitialTextures, 50);
     }
 };
 
@@ -569,37 +569,37 @@ SwitchingTextures.prototype.externalImageLoadCompleteHandler = function(texture)
     var i = Number(texture.name.split('-')[1]);
     this.texturesArray[i] = this.textures[i] = texture;
     this.loadedTextures ++;
-    
+
     if(this.loadedTextures == this.imageNamesArray.length){
         this.setInitialTextures();
     }
 };
 
 SwitchingTextures.prototype.externalImageLoadErrorHandler = function(err){
-    console.log(err);  
+    console.log(err);
 };
 
-SwitchingTextures.prototype.setInitialTextures = function() {  
+SwitchingTextures.prototype.setInitialTextures = function() {
     //Limit the loop to the lesser of the number of planes or textures.
     //
-    
+
     if(this.entity._children[0].model){
         var len = Math.min(this.texturesArray.length, this.entity._children.length);
-        
+
         for(var i = 0; i < len; i++) {
             var plane = this.entity._children[i];
             plane.model.material = plane.model.material.clone();
-            plane.model.material.ambientTint = false;   
-            this.setFaceTexture(i);     
+            plane.model.material.ambientTint = false;
+            this.setFaceTexture(i);
         }
     } else {
         this.entity.model.material = this.entity.model.material.clone();
-        this.entity.model.material.ambientTint = false;   
+        this.entity.model.material.ambientTint = false;
         var mapType = (this.emissive === true)? 'emissiveMap' : 'diffuseMap';
         var imageName = this.imageNamesArray[0];
 
         console.log(this.texturesArray);
-        
+
         this.entity.model.material[mapType] = this.texturesArray[this.textureIndex || 0].resource;
         this.entity.model.material[mapType].anisotropy = 7;
 
@@ -608,37 +608,37 @@ SwitchingTextures.prototype.setInitialTextures = function() {
             this.entity.model.material.opacityMapChannel = 'a';
             this.entity.model.material.blendType = pc.BLEND_NORMAL;
         }
-        
+
        // console.log(this.entity.model.material);
 
-        this.entity.model.material.update();   
+        this.entity.model.material.update();
     }
-        
+
     this.addRotationListeners();
     this.entity.texturesLoaded = true;
     setTimeout(this.alertReady, 100);
 };
-   
+
 SwitchingTextures.prototype.alertReady = function() {
     this.app.fire('textures:ready');
 };
 
 SwitchingTextures.prototype.setFaceTexture = function(planeIndex, textureIndex) {
     if(textureIndex === undefined)textureIndex = planeIndex;
-    var plane = this.entity._children[planeIndex]; 
+    var plane = this.entity._children[planeIndex];
     var mapType = (this.emissive === true)? 'emissiveMap' : 'diffuseMap';
     var imageName = this.imageNamesArray[textureIndex];
-    
+
     plane.model.material[mapType] = this.texturesArray[textureIndex].resource;
-    
+
     if(imageName.indexOf('.png') === imageName.length - 4){
         plane.model.material.opacityMap = this.texturesArray[textureIndex].resource;
         plane.model.material.opacityMapChannel = 'a';
         plane.model.material.blendType = pc.BLEND_NORMAL;
     }
-    
+
     plane.model.material.update();
-    
+
     if(this.texturesArray.length > this.entity._children.length){
         //Check the assigned texture against its initial index to determine what clickID should be received by entityManager.
         plane.model.entity.clickID = 'Plane_'+ this.entity.baseEntityIndex +'-'+ this.textures.indexOf(this.texturesArray[textureIndex]);
@@ -648,7 +648,7 @@ SwitchingTextures.prototype.setFaceTexture = function(planeIndex, textureIndex) 
 //--------------------- Only used if rotationCounter is added to entity ---------------------//
 
 SwitchingTextures.prototype.addRotationListeners = function(){
-    //  If the entity has a rotationTracker script added and there are more textures than planes, 
+    //  If the entity has a rotationTracker script added and there are more textures than planes,
     //  listen for rotation changes to re-assign textures.
     if(this.changeOnSpin && this.entity._children.length < this.texturesArray.length && this.entity.script.rotationTracker){
         this.frontPlaneIndex = 0;
@@ -657,7 +657,7 @@ SwitchingTextures.prototype.addRotationListeners = function(){
     }
 };
 
-SwitchingTextures.prototype.forwardRotationHandler = function(e){  
+SwitchingTextures.prototype.forwardRotationHandler = function(e){
     //rotate textures array forward one index
     if(e.entity.name === this.entity.name){
         this.texturesArray.push(this.texturesArray.shift());
@@ -665,17 +665,17 @@ SwitchingTextures.prototype.forwardRotationHandler = function(e){
     }
 };
 
-SwitchingTextures.prototype.backwardRotationHandler = function(e){   
+SwitchingTextures.prototype.backwardRotationHandler = function(e){
     //rotate textures array backward one index
     if(e.entity.name === this.entity.name){
-        this.texturesArray.unshift(this.texturesArray.pop());    
+        this.texturesArray.unshift(this.texturesArray.pop());
         this.updateTexturesOnRotation();
     }
 };
 
-SwitchingTextures.prototype.updateTexturesOnRotation = function(){    
+SwitchingTextures.prototype.updateTexturesOnRotation = function(){
     //Assign new textures to the planes.
-    this.setFaceTexture(this.frontPlaneIndex, 1);      
+    this.setFaceTexture(this.frontPlaneIndex, 1);
     this.frontPlaneIndex = (this.frontPlaneIndex === 1)? 0 : 1;
     this.setFaceTexture(this.frontPlaneIndex, 0);
 };
@@ -685,8 +685,8 @@ var Boot = pc.createScript('boot');
 
 // initialize code called once per entity
 Boot.prototype.initialize = function() {
-    
-     if(window.MobileFuse === undefined && (window.location.hostname == 'playcanv.as' || window.location.hostname === 'launch.playcanvas.com')){
+
+     if(window.MobileFuse === undefined/* && (window.location.hostname == 'playcanv.as' || window.location.hostname === 'launch.playcanvas.com')*/){
         window.MobileFuse = {
             PC_CONFIG:  {
                 testing: true,
@@ -708,18 +708,18 @@ Boot.prototype.initialize = function() {
             sendMessage: function(label) {
                 console.log('SEND:', label);
             }
-        }; 
-    }    
+        };
+    }
     console.log('Config Data:', window.MobileFuse);
-      
+
     this.MODEL_TAGS = ['HyperCube', 'HyperPlane', 'OrientationCylinder', 'screenPlane', 'bg_plane'];
 
     this.baseEntityTexturesLoaded = 0;
-    this.canvasFound = false;   
+    this.canvasFound = false;
     this.checkForCanvas = this.checkForCanvas.bind(this);
-    
+
     this.app.on('textures:ready', this.texturesReadyHandler, this);
-   
+
     this.findBaseEntities();
     this.buildStyles();
     this.checkForCanvas();
@@ -730,15 +730,15 @@ Boot.prototype.findBaseEntities = function(){
     for(var i = 0; i < this.MODEL_TAGS.length; i++){
         this.baseEntitiesArray = this.baseEntitiesArray.concat(this.app.root.findByTag(this.MODEL_TAGS[i]));
     }
-    
+
     console.log(this.baseEntitiesArray);
 };
 
 
 Boot.prototype.checkForCanvas = function(){
     try{
-        this.canvas = document.getElementsByTagName('canvas')[0];    
-        this.canvas.classList.add('app-canvas'); 
+        this.canvas = document.getElementsByTagName('canvas')[0];
+        this.canvas.classList.add('app-canvas');
         this.canvasFound = true;
         this.checkReady();
     }catch(e){
@@ -746,7 +746,7 @@ Boot.prototype.checkForCanvas = function(){
     }
 };
 
-Boot.prototype.texturesReadyHandler = function(){   
+Boot.prototype.texturesReadyHandler = function(){
     this.baseEntityTexturesLoaded ++;
     window.MobileFuse.PC_BOOT = true;
     this.checkReady();
@@ -764,11 +764,11 @@ Boot.prototype.alertReady = function(){
     for(var i = 0; i < this.baseEntitiesArray.length; i++){
         var animate = true;
         var t = this.baseEntitiesArray[i];
-       
+
         try{
             animate = (window.MobileFuse.PC_CONFIG.animation !== undefined && window.MobileFuse.PC_CONFIG.animation.loops > 0);
         }catch(e){}
-        
+
         if(animate && t.openingAnimation !== undefined){
             setTimeout(t.openingAnimation.bind(t), 600);
         }
@@ -787,11 +787,11 @@ Boot.prototype.buildStyles = function() {
         '    -moz-transition: opacity .5s;',
         '    -ms-transition: opacity .5s;',
         '    -o-transition: opacity .5s;',
-        '    transition: opacity .5s;', 
+        '    transition: opacity .5s;',
         '}'
-    ].join("\n"); 
-    
-    style.type = 'text/css';  
+    ].join("\n");
+
+    style.type = 'text/css';
 
     if (style.styleSheet) {
         style.styleSheet.cssText = css;
@@ -817,7 +817,7 @@ AssignNumberColors.prototype.initialize = function() {
 
 // update code called every frame
 AssignNumberColors.prototype.update = function(dt) {
-    
+
 };
 
 // swap method called for script hot-reloading
