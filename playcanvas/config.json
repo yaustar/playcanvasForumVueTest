@@ -1,1 +1,4136 @@
-{"application_properties":{"antiAlias":true,"fillMode":"FILL_WINDOW","resolutionMode":"AUTO","height":720,"width":1280,"use3dPhysics":false,"preferWebGl2":true,"preserveDrawingBuffer":false,"scripts":[130374796,130374773,130374783,130374786,130374792,130374793,130374775,130374779,130374787,130374789,130374804],"transparentCanvas":true,"useDevicePixelRatio":false,"useLegacyScripts":false,"vr":true,"loadingScreenScript":"130374798","useLegacyAmmoPhysics":true,"batchGroups":[],"layers":{"0":{"name":"World","opaqueSortMode":2,"transparentSortMode":3},"1":{"name":"Depth","opaqueSortMode":2,"transparentSortMode":3},"2":{"name":"Skybox","opaqueSortMode":0,"transparentSortMode":3},"3":{"name":"Immediate","opaqueSortMode":0,"transparentSortMode":3},"4":{"name":"UI","opaqueSortMode":1,"transparentSortMode":1}},"layerOrder":[{"layer":0,"transparent":false,"enabled":true},{"layer":1,"transparent":false,"enabled":true},{"layer":2,"transparent":false,"enabled":true},{"layer":0,"transparent":true,"enabled":true},{"layer":3,"transparent":false,"enabled":true},{"layer":3,"transparent":true,"enabled":true},{"layer":4,"transparent":true,"enabled":true}],"useKeyboard":true,"useMouse":true,"useTouch":true,"useGamepads":true,"i18nAssets":[],"externalScripts":[],"powerPreference":"default","maxAssetRetries":0,"libraries":[]},"scenes":[{"name":"Main Scene","url":"1725123.json"}],"assets":{"130374770":{"name":"Arrow.json","type":"model","file":{"hash":"4ebef610a968c34083d7e8a98a665834","size":16140,"filename":"Arrow.json","url":"files/assets/130374770/1/Arrow.json"},"data":{"mapping":[{"material":null}],"area":0},"preload":true,"tags":[],"i18n":{},"id":"130374770"},"130374771":{"name":"neutradisp-titling.otf","type":"font","file":{"filename":"neutradisp-titling.png","hash":"36282812448ff2e8d25a7fa3689a7919","size":46943,"url":"files/assets/130374771/1/neutradisp-titling.png"},"data":{"version":2,"intensity":0,"info":{"face":"neutradisp-titling","maps":[{"width":512,"height":512}]},"chars":{"43":{"id":43,"letter":"+","x":1,"y":1,"width":64,"height":64,"map":0,"xadvance":13.536,"xoffset":25.232,"yoffset":21.488,"scale":1,"range":8,"bounds":[0.864,4.384,12.672,16.64]},"44":{"id":44,"letter":",","x":67,"y":1,"width":64,"height":64,"map":0,"xadvance":8.704,"xoffset":27.648,"yoffset":30.832,"scale":1,"range":8,"bounds":[1.152,-3.616,7.552,5.952]},"46":{"id":46,"letter":".","x":133,"y":1,"width":64,"height":64,"map":0,"xadvance":8.704,"xoffset":27.648,"yoffset":29.184,"scale":1,"range":8,"bounds":[1.152,-0.32,7.552,5.952]},"48":{"id":48,"letter":"0","x":199,"y":1,"width":64,"height":64,"map":0,"xadvance":25.024,"xoffset":19.488,"yoffset":21.136,"scale":1,"range":8,"bounds":[0.832,-0.288,24.192,22.016]},"49":{"id":49,"letter":"1","x":265,"y":1,"width":64,"height":64,"map":0,"xadvance":11.744,"xoffset":26.864,"yoffset":21.12,"scale":1,"range":8,"bounds":[0.672,0,9.6,21.76]},"50":{"id":50,"letter":"2","x":331,"y":1,"width":64,"height":64,"map":0,"xadvance":18.528,"xoffset":23.1521871624,"yoffset":20.992,"scale":1,"range":8,"bounds":[0.127625675248,0,17.568,22.016]},"51":{"id":51,"letter":"3","x":397,"y":1,"width":64,"height":64,"map":0,"xadvance":19.36,"xoffset":22.5739537506,"yoffset":21.28,"scale":1,"range":8,"bounds":[0.32,-0.32,18.5320924989,21.76]},"52":{"id":52,"letter":"4","x":1,"y":67,"width":64,"height":64,"map":0,"xadvance":21.28,"xoffset":21.344,"yoffset":21.12,"scale":1,"range":8,"bounds":[1.088,0,20.224,21.76]},"53":{"id":53,"letter":"5","x":67,"y":67,"width":64,"height":64,"map":0,"xadvance":18.976,"xoffset":22.768,"yoffset":21.28,"scale":1,"range":8,"bounds":[0.32,-0.32,18.144,21.76]},"54":{"id":54,"letter":"6","x":133,"y":67,"width":64,"height":64,"map":0,"xadvance":19.584,"xoffset":22.176,"yoffset":21.28,"scale":1,"range":8,"bounds":[0.832,-0.32,18.816,21.76]},"55":{"id":55,"letter":"7","x":199,"y":67,"width":64,"height":64,"map":0,"xadvance":18.752,"xoffset":22.3179537506,"yoffset":21.12,"scale":1,"range":8,"bounds":[0.8,0,18.5640924989,21.76]},"56":{"id":56,"letter":"8","x":265,"y":67,"width":64,"height":64,"map":0,"xadvance":19.36,"xoffset":22.32,"yoffset":21.152,"scale":1,"range":8,"bounds":[0.768,-0.32,18.592,22.016]},"57":{"id":57,"letter":"9","x":331,"y":67,"width":64,"height":64,"map":0,"xadvance":19.584,"xoffset":22.24,"yoffset":20.96,"scale":1,"range":8,"bounds":[0.768,0,18.752,22.08]},"58":{"id":58,"letter":":","x":397,"y":67,"width":64,"height":64,"map":0,"xadvance":8.896,"xoffset":27.552,"yoffset":24.752,"scale":1,"range":8,"bounds":[1.248,-0.32,7.648,14.816]},"65":{"id":65,"letter":"A","x":1,"y":133,"width":64,"height":64,"map":0,"xadvance":21.792,"xoffset":21.104,"yoffset":20.844,"scale":1,"range":8,"bounds":[0.128,0,21.664,22.312]},"66":{"id":66,"letter":"B","x":67,"y":133,"width":64,"height":64,"map":0,"xadvance":20.416,"xoffset":21.152,"yoffset":21.12,"scale":1,"range":8,"bounds":[1.888,0,19.808,21.76]},"67":{"id":67,"letter":"C","x":133,"y":133,"width":64,"height":64,"map":0,"xadvance":22.08,"xoffset":20.72,"yoffset":21.136,"scale":1,"range":8,"bounds":[0.832,-0.288,21.728,22.016]},"68":{"id":68,"letter":"D","x":199,"y":133,"width":64,"height":64,"map":0,"xadvance":22.016,"xoffset":20.4,"yoffset":21.12,"scale":1,"range":8,"bounds":[1.888,0,21.312,21.76]},"69":{"id":69,"letter":"E","x":265,"y":133,"width":64,"height":64,"map":0,"xadvance":18.528,"xoffset":22.256,"yoffset":21.12,"scale":1,"range":8,"bounds":[1.888,0,17.6,21.76]},"70":{"id":70,"letter":"F","x":331,"y":133,"width":64,"height":64,"map":0,"xadvance":17.664,"xoffset":22.72,"yoffset":21.12,"scale":1,"range":8,"bounds":[1.888,0,16.672,21.76]},"71":{"id":71,"letter":"G","x":397,"y":133,"width":64,"height":64,"map":0,"xadvance":23.04,"xoffset":20.576,"yoffset":21.136,"scale":1,"range":8,"bounds":[0.832,-0.288,22.016,22.016]},"72":{"id":72,"letter":"H","x":1,"y":199,"width":64,"height":64,"map":0,"xadvance":22.976,"xoffset":20.512,"yoffset":21.12,"scale":1,"range":8,"bounds":[1.888,0,21.088,21.76]},"73":{"id":73,"letter":"I","x":67,"y":199,"width":64,"height":64,"map":0,"xadvance":9.856,"xoffset":27.072,"yoffset":21.12,"scale":1,"range":8,"bounds":[2.016,0,7.84,21.76]},"74":{"id":74,"letter":"J","x":133,"y":199,"width":64,"height":64,"map":0,"xadvance":15.552,"xoffset":24.992,"yoffset":21.28,"scale":1,"range":8,"bounds":[0.192,-0.32,13.824,21.76]},"75":{"id":75,"letter":"K","x":199,"y":199,"width":64,"height":64,"map":0,"xadvance":21.824,"xoffset":20.256,"yoffset":21.12,"scale":1,"range":8,"bounds":[1.888,0,21.6,21.76]},"76":{"id":76,"letter":"L","x":265,"y":199,"width":64,"height":64,"map":0,"xadvance":17.76,"xoffset":22.576,"yoffset":21.12,"scale":1,"range":8,"bounds":[1.888,0,16.96,21.76]},"77":{"id":77,"letter":"M","x":331,"y":199,"width":64,"height":64,"map":0,"xadvance":26.464,"xoffset":18.768,"yoffset":20.928,"scale":1,"range":8,"bounds":[1.312,0,25.152,22.144]},"78":{"id":78,"letter":"N","x":397,"y":199,"width":64,"height":64,"map":0,"xadvance":23.36,"xoffset":20.32,"yoffset":21.1455516944,"scale":1,"range":8,"bounds":[1.888,-0.560326530612,21.472,22.2692231419]},"79":{"id":79,"letter":"O","x":1,"y":265,"width":64,"height":64,"map":0,"xadvance":25.024,"xoffset":19.488,"yoffset":21.136,"scale":1,"range":8,"bounds":[0.832,-0.288,24.192,22.016]},"80":{"id":80,"letter":"P","x":67,"y":265,"width":64,"height":64,"map":0,"xadvance":20.096,"xoffset":21.408,"yoffset":21.12,"scale":1,"range":8,"bounds":[1.888,0,19.296,21.76]},"81":{"id":81,"letter":"Q","x":133,"y":265,"width":64,"height":64,"map":0,"xadvance":25.024,"xoffset":19.488,"yoffset":22.976,"scale":1,"range":8,"bounds":[0.832,-3.968,24.192,22.016]},"82":{"id":82,"letter":"R","x":199,"y":265,"width":64,"height":64,"map":0,"xadvance":20.128,"xoffset":21.408,"yoffset":21.12,"scale":1,"range":8,"bounds":[1.888,0,19.296,21.76]},"83":{"id":83,"letter":"S","x":265,"y":265,"width":64,"height":64,"map":0,"xadvance":18.176,"xoffset":23.232,"yoffset":21.152,"scale":1,"range":8,"bounds":[0.128,-0.32,17.408,22.016]},"84":{"id":84,"letter":"T","x":331,"y":265,"width":64,"height":64,"map":0,"xadvance":18.816,"xoffset":22.592,"yoffset":21.12,"scale":1,"range":8,"bounds":[0.736,0,18.08,21.76]},"85":{"id":85,"letter":"U","x":397,"y":265,"width":64,"height":64,"map":0,"xadvance":22.208,"xoffset":20.896,"yoffset":21.28,"scale":1,"range":8,"bounds":[1.664,-0.32,20.544,21.76]},"86":{"id":86,"letter":"V","x":1,"y":331,"width":64,"height":64,"map":0,"xadvance":21.152,"xoffset":21.424,"yoffset":21.304,"scale":1,"range":8,"bounds":[0.128,-0.368,21.024,21.76]},"87":{"id":87,"letter":"W","x":67,"y":331,"width":64,"height":64,"map":0,"xadvance":29.952,"xoffset":17.024,"yoffset":21.076,"scale":1,"range":8,"bounds":[0.128,-0.448,29.824,22.296]},"88":{"id":88,"letter":"X","x":133,"y":331,"width":64,"height":64,"map":0,"xadvance":21.984,"xoffset":21.008,"yoffset":21.12,"scale":1,"range":8,"bounds":[0.288,0,21.696,21.76]},"89":{"id":89,"letter":"Y","x":199,"y":331,"width":64,"height":64,"map":0,"xadvance":22.592,"xoffset":20.704,"yoffset":21.12,"scale":1,"range":8,"bounds":[0.128,0,22.464,21.76]},"90":{"id":90,"letter":"Z","x":265,"y":331,"width":64,"height":64,"map":0,"xadvance":19.616,"xoffset":22.32,"yoffset":21.12,"scale":1,"range":8,"bounds":[0.261316519646,0,19.0986834804,21.76]}},"kerning":{"43":{"49":-0.64,"50":-1.28,"51":-0.96,"53":-0.64,"55":-1.28},"44":{"48":-0.96,"49":-1.6,"52":-0.64,"54":-0.48,"55":-1.44,"56":-0.32,"57":-2.88,"65":0.16,"67":-1.6,"71":-1.28,"74":0.32,"79":-1.28,"81":-1.28,"83":0.32,"84":-4.16,"85":-0.8,"86":-5.76,"87":-4.8,"89":-5.12},"46":{"48":-0.96,"49":-1.6,"52":-0.64,"54":-0.48,"55":-1.44,"56":-0.32,"57":-2.88,"65":0.16,"67":-1.6,"71":-1.28,"74":0.32,"79":-1.28,"81":-1.28,"83":0.32,"84":-4.16,"85":-0.8,"86":-5.76,"87":-4.8,"89":-5.12},"48":{"44":-0.96,"46":-0.96,"50":-0.96,"51":-0.32,"55":-0.64},"49":{"52":-0.32},"50":{"51":-0.16,"52":-0.32,"53":0.32,"54":-0.16},"51":{"49":0.32,"50":-0.96,"55":-0.16,"57":-0.32},"52":{"49":-0.32,"50":-0.32,"55":-0.32,"57":-0.64},"53":{"44":-0.32,"46":-0.32,"49":-0.48,"50":-0.96,"55":-0.8,"57":-0.32},"54":{"44":-0.32,"46":-0.32,"49":-0.8,"50":-1.6,"55":-1.28,"57":-0.48,"58":-0.32},"55":{"43":-1.6,"44":-4.8,"46":-4.8,"48":-1.6,"49":0.32,"50":-0.8,"51":-0.8,"52":-3.36,"53":-0.8,"54":-2.24,"56":-1.6,"57":-0.64,"58":-2.24},"56":{"44":-0.32,"46":-0.32,"49":-0.64,"50":-1.12,"55":-0.96,"57":-0.8,"58":-0.32},"57":{"44":-3.36,"46":-3.36,"50":-0.32,"51":-1.28,"52":-1.44,"53":-0.48,"54":-0.48,"56":-0.8,"58":-0.32},"58":{"49":-0.8,"50":-0.64,"54":-0.32,"55":-1.44,"56":-0.32,"57":-0.32,"77":-0.32,"84":-3.2,"86":-2.56,"87":-2.08,"88":-0.32,"89":-3.52},"65":{"44":0.16,"46":0.16,"67":-2.08,"71":-2.08,"77":0.16,"79":-2.08,"81":-2.08,"84":-3.2,"85":-1.44,"86":-4.96,"87":-4.48,"89":-4.96,"90":0.32},"66":{"65":-0.32,"84":-0.96,"86":-1.504,"87":-1.44,"88":-1.28,"89":-1.92,"90":-0.32},"67":{"65":-0.32,"71":-0.48,"77":0.16,"79":-0.48,"81":-0.48,"86":-0.64,"87":-0.5760000000000001,"88":-1.6,"89":-0.96,"90":-0.32},"68":{"44":-0.64,"46":-0.64,"65":-1.6,"74":-1.44,"83":-0.32,"84":-0.8,"86":-1.6,"87":-1.28,"88":-2.08,"89":-1.92,"90":-1.12},"69":{"44":0.32,"46":0.32,"58":0.32,"65":0.48,"67":-0.32,"71":-0.32,"77":0.16,"79":-0.32,"81":-0.32,"86":-0.32,"87":-0.32,"89":-0.32},"70":{"44":-1.6,"46":-1.6,"58":-0.32,"65":-2.24,"67":-0.32,"71":-0.32,"74":-2.88,"77":-0.48,"79":-0.32,"81":-0.32,"83":-0.48,"88":-0.8,"90":-0.32},"71":{"65":-0.32,"77":0.32,"83":0.32,"84":-0.96,"86":-1.44,"87":-1.28,"88":-0.96,"89":-1.6,"90":-0.16},"74":{"44":-0.48,"46":-0.48,"65":-1.44,"77":-0.16,"88":-0.64,"90":-0.32},"75":{"65":0.32,"67":-2.24,"71":-2.24,"79":-2.24,"81":-2.24,"83":-0.48,"84":-0.48,"85":-0.5760000000000001,"86":-0.32,"87":-0.32,"88":0.32,"89":-0.32,"90":0.32},"76":{"44":0.48,"46":0.48,"58":0.32,"65":0.32,"67":-0.48,"71":-0.48,"79":-0.48,"81":-0.48,"84":-3.2,"85":-0.8,"86":-3.84,"87":-3.52,"89":-3.84},"77":{"58":-0.32,"65":0.16,"84":-0.48,"85":-0.32,"86":-0.8,"87":-0.8,"89":-0.96},"79":{"44":-1.28,"46":-1.28,"65":-2.08,"74":-1.6,"83":-0.544,"84":-1.12,"86":-1.76,"87":-1.76,"88":-2.88,"89":-2.24,"90":-1.44},"80":{"44":-2.88,"46":-2.88,"65":-2.88,"67":0.16,"71":0.16,"74":-3.36,"77":-0.16,"79":0.16,"81":0.16,"83":-0.32,"84":-0.16,"86":-0.8,"87":-0.8,"88":-2.08,"89":-0.96,"90":-0.96},"81":{"44":-1.28,"46":-1.28,"65":-2.08,"74":-1.6,"83":-0.544,"84":-1.12,"86":-1.76,"87":-1.76,"88":-2.56,"89":-2.24,"90":-1.44},"82":{"67":0.32,"71":0.32,"74":-0.64,"79":0.32,"81":0.32,"86":-1.12,"87":-0.96,"89":-1.12},"83":{"65":-0.32,"67":0.16,"71":0.16,"79":0.16,"81":0.16,"84":-0.8,"86":-0.96,"87":-1.12,"88":-0.8,"89":-1.28,"90":-0.32},"84":{"44":-4.16,"46":-4.16,"58":-3.2,"65":-3.2,"67":-1.12,"71":-1.12,"74":-3.2,"77":-0.48,"79":-1.12,"81":-1.12,"83":-0.32,"86":0.32,"87":0.32,"88":-0.8,"89":0.16,"90":-0.48},"85":{"44":-0.8,"46":-0.8,"65":-1.44,"74":-0.96,"77":-0.32,"88":-0.8,"90":-0.64},"86":{"44":-5.76,"46":-5.76,"58":-2.56,"65":-4.96,"67":-2.08,"71":-2.08,"74":-3.84,"77":-0.8,"79":-2.08,"81":-2.08,"83":-1.12,"84":0.32,"87":0.32,"88":-0.64,"89":0.448,"90":-0.64},"87":{"44":-4.8,"46":-4.8,"58":-2.08,"65":-4.48,"67":-1.76,"71":-1.76,"74":-4.16,"77":-0.8,"79":-1.76,"81":-1.76,"83":-0.96,"84":0.32,"86":0.32,"88":-0.32,"89":0.48,"90":-0.48},"88":{"58":-0.32,"67":-2.88,"71":-2.88,"79":-2.88,"81":-2.56,"83":-0.48,"84":-0.8,"85":-0.8,"86":-0.64,"87":-0.32,"89":-0.32,"90":0.32},"89":{"44":-5.12,"46":-5.12,"58":-3.52,"65":-4.96,"67":-2.24,"71":-2.24,"74":-4.48,"77":-0.96,"79":-2.24,"81":-2.24,"83":-1.44,"84":0.16,"86":0.448,"87":0.48,"88":-0.32,"90":-0.48},"90":{"58":-0.32,"67":-1.28,"71":-1.28,"79":-1.28,"81":-1.28,"89":0.16}}},"preload":true,"tags":[],"i18n":{},"id":"130374771"},"130374773":{"name":"teleportable.js","type":"script","file":{"filename":"__game-scripts.js","size":19265,"hash":"e3f341546ec5aa61d2430d658d5289bd","url":"__game-scripts.js"},"data":{"scripts":{"teleportable":{"attributesOrder":[],"attributes":{}}},"loading":false,"loadingType":0},"preload":true,"tags":[],"i18n":{},"id":"130374773"},"130374775":{"name":"drag-roll-target.js","type":"script","file":{"filename":"__game-scripts.js","size":19265,"hash":"e3f341546ec5aa61d2430d658d5289bd","url":"__game-scripts.js"},"data":{"scripts":{"dragRollTarget":{"attributesOrder":[],"attributes":{}}},"loading":false,"loadingType":0},"preload":true,"tags":[],"i18n":{},"id":"130374775"},"130374776":{"name":"wood.jpg","type":"texture","file":{"filename":"wood.jpg","hash":"7cfaaae4d5883d591d313ea9f2c3df66","size":87641,"variants":{},"url":"files/assets/130374776/1/wood.jpg"},"data":{"addressu":"repeat","addressv":"mirror","minfilter":"linear_mip_linear","magfilter":"linear","anisotropy":2,"rgbm":false,"mipmaps":true},"preload":true,"tags":[],"i18n":{},"id":"130374776"},"130374779":{"name":"clickable.js","type":"script","file":{"filename":"__game-scripts.js","size":19265,"hash":"e3f341546ec5aa61d2430d658d5289bd","url":"__game-scripts.js"},"data":{"scripts":{"clickable":{"attributesOrder":["cameraEntity"],"attributes":{"cameraEntity":{"type":"entity","title":"Camera Entity"}}}},"loading":false,"loadingType":0},"preload":true,"tags":[],"i18n":{},"id":"130374779"},"130374782":{"name":"Board.json","type":"model","file":{"hash":"8498c82297c0f81b78947ff3d31ce80a","size":187293,"filename":"Board.json","url":"files/assets/130374782/1/Board.json"},"data":{"mapping":[{"material":130374799}],"area":0},"preload":true,"tags":[],"i18n":{},"id":"130374782"},"130374783":{"name":"teleport.js","type":"script","file":{"filename":"__game-scripts.js","size":19265,"hash":"e3f341546ec5aa61d2430d658d5289bd","url":"__game-scripts.js"},"data":{"scripts":{"teleport":{"attributesOrder":["target"],"attributes":{"target":{"type":"entity","title":"Target Entity","description":"The target entity where we are going to teleport"}}}},"loading":false,"loadingType":0},"preload":true,"tags":[],"i18n":{},"id":"130374783"},"130374786":{"name":"score-sensor.js","type":"script","file":{"filename":"__game-scripts.js","size":19265,"hash":"e3f341546ec5aa61d2430d658d5289bd","url":"__game-scripts.js"},"data":{"scripts":{"score":{"attributesOrder":["points","freeBall","scoreIndicator"],"attributes":{"points":{"type":"number","title":"Points Value","description":"Number of points that collision with this entitiy is worth","default":0},"freeBall":{"type":"boolean","title":"Free Ball","description":"Is a Free Ball awarded?","default":false},"scoreIndicator":{"type":"entity","title":"Score Indicator","description":"Score Indicator Entity, blinks when triggered"}}}},"loading":false,"loadingType":0},"preload":true,"tags":[],"i18n":{},"id":"130374786"},"130374787":{"name":"switching-textures.js","type":"script","file":{"filename":"__game-scripts.js","size":19265,"hash":"e3f341546ec5aa61d2430d658d5289bd","url":"__game-scripts.js"},"data":{"order":100,"scripts":{"switchingTextures":{"attributesOrder":["textures","changeOnSpin","emissive","textureIndex"],"attributes":{"textures":{"type":"asset","assetType":"texture","array":true,"title":"Textures"},"changeOnSpin":{"type":"boolean","default":false,"title":"Change On Spin","description":"Whether textures should be re-assigned as the entity spins"},"emissive":{"type":"boolean","default":false,"title":"Emissive?","description":"Whether the textures should be assigned as emissive"},"textureIndex":{"type":"number","default":0,"title":"Texture Index"}}}},"loadingType":0,"loading":false},"preload":true,"tags":[],"i18n":{},"id":"130374787"},"130374788":{"name":"Platform.png","type":"texture","file":{"filename":"Platform.png","hash":"69b64983bf370d81207d948a01085193","size":2028,"variants":{},"url":"files/assets/130374788/1/Platform.png"},"data":{"addressu":"clamp","addressv":"mirror","minfilter":"linear_mip_linear","magfilter":"linear","anisotropy":7,"rgbm":false,"mipmaps":true},"preload":true,"tags":[],"i18n":{},"id":"130374788"},"130374789":{"name":"boot.js","type":"script","file":{"filename":"__game-scripts.js","size":19265,"hash":"e3f341546ec5aa61d2430d658d5289bd","url":"__game-scripts.js"},"data":{"order":100,"scripts":{"boot":{"attributesOrder":[],"attributes":{}}},"loadingType":0,"loading":false},"preload":true,"tags":[],"i18n":{},"id":"130374789"},"130374790":{"name":"platform_mat","type":"material","file":null,"data":{"occludeSpecular":true,"useMetalness":false,"specularMap":null,"specularMapChannel":"rgb","heightMapOffset":[0,0],"cubeMap":null,"metalness":1,"depthTest":true,"heightMapTiling":[1,1],"bumpMapFactor":1,"aoMapChannel":"r","diffuseMapOffset":[0,0],"ambient":[0.5843137502670288,0.5843137502670288,0.5843137502670288],"normalMap":null,"metalnessMapChannel":"r","shadowSampleType":1,"ambientTint":false,"depthWrite":true,"lightMapChannel":"rgb","glossMap":null,"emissiveMapTint":false,"opacityMapOffset":[0,0],"glossMapOffset":[0,0],"reflectivity":1,"normalMapTiling":[1,1],"heightMapFactor":1,"metalnessMapOffset":[0,0],"heightMapChannel":"r","specularMapTiling":[1,1],"opacityMapChannel":"r","aoMap":null,"fresnelModel":0,"emissiveMapOffset":[0,0],"emissiveMapTiling":[1,1],"aoUvSet":0,"diffuseMap":130374788,"specularMapTint":false,"fresnelFactor":0,"glossMapTiling":[1,1],"opacity":1,"emissive":[0.5058823823928833,0.5058823823928833,0.5058823823928833],"emissiveMap":null,"shininess":0,"heightMap":null,"specularAntialias":true,"diffuseMapTiling":[1,1],"lightMap":null,"specularMapOffset":[0,0],"blendType":3,"aoMapTiling":[1,1],"metalnessMap":null,"diffuse":[0.27450980392156865,0.24705882352941178,0.45098039215686275],"cubeMapProjection":0,"diffuseMapChannel":"rgb","diffuseMapTint":false,"lightMapOffset":[0,0],"opacityMapTiling":[1,1],"metalnessMapTint":false,"conserveEnergy":true,"opacityMap":null,"sphereMap":null,"refractionIndex":0.6666666666666666,"glossMapChannel":"r","specular":[0.5019607843137255,0.043137254901960784,0.043137254901960784],"metalnessMapTiling":[1,1],"emissiveIntensity":0,"refraction":0,"emissiveMapChannel":"rgb","aoMapOffset":[0,0],"lightMapTiling":[1,1],"normalMapOffset":[0,0],"cull":1,"shader":"blinn","useFog":false,"useSkybox":false,"useGammaTonemap":true,"useLighting":true,"cubeMapProjectionBox":{"center":[0,0,0],"halfExtents":[0.5,0.5,0.5]},"alphaToCoverage":false,"opacityFadesSpecular":true,"alphaFade":1,"clearCoat":0,"clearCoatMap":null,"clearCoatMapChannel":"r","clearCoatMapUv":0,"clearCoatMapTiling":[1,1],"clearCoatMapOffset":[0,0],"clearCoatVertexColor":false,"clearCoatVertexColorChannel":"r","clearCoatGlossiness":1,"clearCoatGlossMap":null,"clearCoatGlossMapChannel":"r","clearCoatGlossMapUv":0,"clearCoatGlossMapTiling":[1,1],"clearCoatGlossMapOffset":[0,0],"clearCoatGlossVertexColor":false,"clearCoatGlossVertexColorChannel":"r","clearCoatBumpiness":1,"clearCoatNormalMap":null,"clearCoatNormalMapUv":0,"clearCoatNormalMapTiling":[1,1],"clearCoatNormalMapOffset":[0,0],"clearCoatGloss":1},"preload":true,"tags":[],"i18n":{},"id":"130374790"},"130374791":{"name":"bg.jpg","type":"texture","file":{"filename":"bg.jpg","hash":"ed9c296cd547cc44b1d886e34c8f7974","size":86875,"variants":{},"url":"files/assets/130374791/1/bg.jpg"},"data":{"addressu":"repeat","addressv":"repeat","minfilter":"linear_mip_linear","magfilter":"linear","anisotropy":1,"rgbm":false,"mipmaps":true},"preload":true,"tags":[],"i18n":{},"id":"130374791"},"130374792":{"name":"main.js","type":"script","file":{"filename":"__game-scripts.js","size":19265,"hash":"e3f341546ec5aa61d2430d658d5289bd","url":"__game-scripts.js"},"data":{"scripts":{"main":{"attributesOrder":["totalBalls","scoreEntity","ballCountEntity","messageEntity","introEntity"],"attributes":{"totalBalls":{"type":"number","title":"Total Balls","description":"Number of balls thrown in a game","default":0},"scoreEntity":{"type":"entity","title":"Score-Keeping Text Entity"},"ballCountEntity":{"type":"entity","title":"Ball-Counting Text Entity"},"messageEntity":{"type":"entity","title":"Message Text Entity"},"introEntity":{"type":"entity","title":"Intro Text Entity"}}}},"loading":false,"loadingType":0},"preload":true,"tags":[],"i18n":{},"id":"130374792"},"130374793":{"name":"drag-roll.js","type":"script","file":{"filename":"__game-scripts.js","size":19265,"hash":"e3f341546ec5aa61d2430d658d5289bd","url":"__game-scripts.js"},"data":{"scripts":{"dragRoll":{"attributesOrder":["cameraEntity","floorEntity","arrowEntity","maxForce","minForce","dragVelXMultiplier","dragVelZMultiplier"],"attributes":{"cameraEntity":{"type":"entity","title":"Camera Entity"},"maxForce":{"type":"number","title":"Max Force","description":"Maximum clamp value for ball force","default":10},"minForce":{"type":"number","title":"Min Force","description":"Minimum clamp value for ball force","default":3.5},"dragVelXMultiplier":{"type":"number","title":"Drag Vel X Multiplier","description":"Drag velocity factor - x axis","default":0.05},"floorEntity":{"type":"entity","title":"Floor Entity"},"arrowEntity":{"type":"entity","title":"Arrow Entity"},"dragVelZMultiplier":{"type":"number","title":"Drag Vel Z Multiplier","description":"Drag velocity factor - z axis","default":0.1}}}},"loading":false,"loadingType":0},"preload":true,"tags":[],"i18n":{},"id":"130374793"},"130374794":{"name":"arrow_mat","type":"material","file":null,"data":{"ambient":[0,0,0],"ambientTint":false,"aoMap":null,"aoMapChannel":"r","aoMapUv":0,"aoMapTiling":[1,1],"aoMapOffset":[0,0],"diffuse":[1,1,1],"diffuseMap":null,"diffuseMapChannel":"rgb","diffuseMapUv":0,"diffuseMapTiling":[1,1],"diffuseMapOffset":[0,0],"specular":[0.23,0.23,0.23],"specularMap":null,"specularMapChannel":"rgb","specularMapUv":0,"specularMapTiling":[1,1],"specularMapOffset":[0,0],"specularAntialias":true,"occludeSpecular":1,"useMetalness":false,"metalness":1,"metalnessMap":null,"metalnessMapChannel":"r","metalnessMapUv":0,"metalnessMapTiling":[1,1],"metalnessMapOffset":[0,0],"conserveEnergy":true,"shininess":32,"glossMap":null,"glossMapChannel":"r","glossMapUv":0,"glossMapTiling":[1,1],"glossMapOffset":[0,0],"fresnelModel":2,"emissive":[0,0,0],"emissiveMap":null,"emissiveMapChannel":"rgb","emissiveMapUv":0,"emissiveMapTiling":[1,1],"emissiveMapOffset":[0,0],"emissiveIntensity":1,"normalMap":null,"normalMapTiling":[1,1],"normalMapOffset":[0,0],"normalMapUv":0,"bumpMapFactor":1,"heightMap":null,"heightMapChannel":"r","heightMapUv":0,"heightMapTiling":[1,1],"heightMapOffset":[0,0],"heightMapFactor":1,"alphaToCoverage":false,"alphaTest":0,"opacity":0.5,"opacityMap":null,"opacityMapChannel":"a","opacityMapUv":0,"opacityMapTiling":[1,1],"opacityMapOffset":[0,0],"reflectivity":1,"refraction":0,"refractionIndex":0.6666666666666666,"sphereMap":null,"cubeMap":null,"cubeMapProjection":0,"cubeMapProjectionBox":{"center":[0,0,0],"halfExtents":[0.5,0.5,0.5]},"lightMap":null,"lightMapChannel":"rgb","lightMapUv":1,"lightMapTiling":[1,1],"lightMapOffset":[0,0],"depthTest":true,"depthWrite":false,"cull":1,"blendType":4,"shader":"blinn","useFog":false,"useLighting":true,"useSkybox":false,"useGammaTonemap":true,"aoMapVertexColor":false,"diffuseMapVertexColor":false,"emissiveMapVertexColor":false,"specularMapVertexColor":false,"metalnessMapVertexColor":false,"opacityMapVertexColor":false,"glossMapVertexColor":false,"lightMapVertexColor":false,"diffuseMapTint":false,"specularMapTint":false,"emissiveMapTint":false,"metalnessMapTint":false,"opacityFadesSpecular":true,"alphaFade":1,"clearCoat":0,"clearCoatMap":null,"clearCoatMapChannel":"r","clearCoatMapUv":0,"clearCoatMapTiling":[1,1],"clearCoatMapOffset":[0,0],"clearCoatVertexColor":false,"clearCoatVertexColorChannel":"r","clearCoatGlossiness":1,"clearCoatGlossMap":null,"clearCoatGlossMapChannel":"r","clearCoatGlossMapUv":0,"clearCoatGlossMapTiling":[1,1],"clearCoatGlossMapOffset":[0,0],"clearCoatGlossVertexColor":false,"clearCoatGlossVertexColorChannel":"r","clearCoatBumpiness":1,"clearCoatNormalMap":null,"clearCoatNormalMapUv":0,"clearCoatNormalMapTiling":[1,1],"clearCoatNormalMapOffset":[0,0],"clearCoatGloss":1},"preload":true,"tags":[],"i18n":{},"id":"130374794"},"130374795":{"name":"logo_mat","type":"material","file":null,"data":{"ambient":[0,0,0],"ambientTint":false,"aoMap":null,"aoMapChannel":"r","aoMapUv":0,"aoMapTiling":[1,1],"aoMapOffset":[0,0],"diffuse":[0.9019607843137255,0.9019607843137255,0.9019607843137255],"diffuseMap":130374805,"diffuseMapChannel":"rgb","diffuseMapUv":0,"diffuseMapTiling":[1,1],"diffuseMapOffset":[0,0],"specular":[0.2235294117647059,0.027450980392156862,0.027450980392156862],"specularMap":null,"specularMapChannel":"a","specularMapUv":0,"specularMapTiling":[1,1],"specularMapOffset":[0,0],"specularAntialias":true,"occludeSpecular":1,"useMetalness":false,"metalness":1,"metalnessMap":null,"metalnessMapChannel":"r","metalnessMapUv":0,"metalnessMapTiling":[1,1],"metalnessMapOffset":[0,0],"conserveEnergy":true,"shininess":0,"glossMap":null,"glossMapChannel":"a","glossMapUv":0,"glossMapTiling":[1,1],"glossMapOffset":[0,0],"fresnelModel":0,"emissive":[0,0,0],"emissiveMap":null,"emissiveMapChannel":"rgb","emissiveMapUv":0,"emissiveMapTiling":[1,1],"emissiveMapOffset":[0,0],"emissiveIntensity":1,"normalMap":null,"normalMapTiling":[1,1],"normalMapOffset":[0,0],"normalMapUv":0,"bumpMapFactor":1,"heightMap":null,"heightMapChannel":"r","heightMapUv":0,"heightMapTiling":[1,1],"heightMapOffset":[0,0],"heightMapFactor":1,"alphaToCoverage":false,"alphaTest":0.5,"opacity":1,"opacityMap":130374805,"opacityMapChannel":"a","opacityMapUv":0,"opacityMapTiling":[1,1],"opacityMapOffset":[0,0],"reflectivity":1,"refraction":0,"refractionIndex":0.6666666666666666,"sphereMap":null,"cubeMap":null,"cubeMapProjection":0,"cubeMapProjectionBox":{"center":[0,0,0],"halfExtents":[0.5,0.5,0.5]},"lightMap":null,"lightMapChannel":"rgb","lightMapUv":1,"lightMapTiling":[1,1],"lightMapOffset":[0,0],"depthTest":true,"depthWrite":true,"cull":1,"blendType":2,"shader":"blinn","useFog":false,"useLighting":true,"useSkybox":false,"useGammaTonemap":true,"aoMapVertexColor":false,"diffuseMapVertexColor":false,"emissiveMapVertexColor":false,"specularMapVertexColor":false,"metalnessMapVertexColor":false,"opacityMapVertexColor":false,"glossMapVertexColor":false,"lightMapVertexColor":false,"diffuseMapTint":true,"specularMapTint":false,"emissiveMapTint":false,"metalnessMapTint":false,"opacityFadesSpecular":true,"alphaFade":1,"clearCoat":0,"clearCoatMap":null,"clearCoatMapChannel":"r","clearCoatMapUv":0,"clearCoatMapTiling":[1,1],"clearCoatMapOffset":[0,0],"clearCoatVertexColor":false,"clearCoatVertexColorChannel":"r","clearCoatGlossiness":1,"clearCoatGlossMap":null,"clearCoatGlossMapChannel":"r","clearCoatGlossMapUv":0,"clearCoatGlossMapTiling":[1,1],"clearCoatGlossMapOffset":[0,0],"clearCoatGlossVertexColor":false,"clearCoatGlossVertexColorChannel":"r","clearCoatBumpiness":1,"clearCoatNormalMap":null,"clearCoatNormalMapUv":0,"clearCoatNormalMapTiling":[1,1],"clearCoatNormalMapOffset":[0,0],"clearCoatGloss":1},"preload":true,"tags":[],"i18n":{},"id":"130374795"},"130374796":{"name":"follow.js","type":"script","file":{"filename":"__game-scripts.js","size":19265,"hash":"e3f341546ec5aa61d2430d658d5289bd","url":"__game-scripts.js"},"data":{"scripts":{"follow":{"attributesOrder":["target","distance"],"attributes":{"target":{"type":"entity","title":"Target","description":"The Entity to follow"},"distance":{"type":"number","default":4,"title":"Distance","description":"How far from the Entity should the follower be"}}}},"loading":false,"loadingType":0},"preload":true,"tags":[],"i18n":{},"id":"130374796"},"130374797":{"name":"wood_mat","type":"material","file":null,"data":{"ambient":[0,0,0],"ambientTint":false,"aoMap":130374776,"aoMapChannel":"r","aoMapUv":0,"aoMapTiling":[1,1],"aoMapOffset":[0,0],"diffuse":[1,1,1],"diffuseMap":130374776,"diffuseMapChannel":"rgb","diffuseMapUv":0,"diffuseMapTiling":[1,1],"diffuseMapOffset":[0,0],"specular":[0.792156862745098,0.6666666666666666,0.6666666666666666],"specularMap":130374776,"specularMapChannel":"rgb","specularMapUv":0,"specularMapTiling":[1,1],"specularMapOffset":[0,0],"specularAntialias":true,"occludeSpecular":0,"useMetalness":false,"metalness":1,"metalnessMap":null,"metalnessMapChannel":"r","metalnessMapUv":0,"metalnessMapTiling":[1,1],"metalnessMapOffset":[0,0],"conserveEnergy":true,"shininess":62.8,"glossMap":130374776,"glossMapChannel":"r","glossMapUv":0,"glossMapTiling":[1,1],"glossMapOffset":[0,0],"fresnelModel":2,"emissive":[0.396078431372549,0.396078431372549,0.396078431372549],"emissiveMap":130374776,"emissiveMapChannel":"rgb","emissiveMapUv":0,"emissiveMapTiling":[1,1],"emissiveMapOffset":[0,0],"emissiveIntensity":3.05,"normalMap":null,"normalMapTiling":[1,1],"normalMapOffset":[0,0],"normalMapUv":0,"bumpMapFactor":1,"heightMap":null,"heightMapChannel":"r","heightMapUv":0,"heightMapTiling":[1,1],"heightMapOffset":[0,0],"heightMapFactor":1,"alphaToCoverage":false,"alphaTest":0,"opacity":1,"opacityMap":null,"opacityMapChannel":"r","opacityMapUv":0,"opacityMapTiling":[1,1],"opacityMapOffset":[0,0],"reflectivity":1,"refraction":0,"refractionIndex":0.6666666666666666,"sphereMap":null,"cubeMap":null,"cubeMapProjection":0,"cubeMapProjectionBox":{"center":[0,0,0],"halfExtents":[0.5,0.5,0.5]},"lightMap":null,"lightMapChannel":"rgb","lightMapUv":1,"lightMapTiling":[1,1],"lightMapOffset":[0,0],"depthTest":true,"depthWrite":true,"cull":1,"blendType":3,"shader":"blinn","useFog":true,"useLighting":true,"useSkybox":true,"useGammaTonemap":true,"aoMapVertexColor":false,"diffuseMapVertexColor":false,"emissiveMapVertexColor":false,"specularMapVertexColor":false,"metalnessMapVertexColor":false,"opacityMapVertexColor":false,"glossMapVertexColor":false,"lightMapVertexColor":false,"diffuseMapTint":false,"specularMapTint":true,"emissiveMapTint":true,"metalnessMapTint":false,"opacityFadesSpecular":true,"alphaFade":1,"clearCoat":0,"clearCoatMap":null,"clearCoatMapChannel":"r","clearCoatMapUv":0,"clearCoatMapTiling":[1,1],"clearCoatMapOffset":[0,0],"clearCoatVertexColor":false,"clearCoatVertexColorChannel":"r","clearCoatGlossiness":1,"clearCoatGlossMap":null,"clearCoatGlossMapChannel":"r","clearCoatGlossMapUv":0,"clearCoatGlossMapTiling":[1,1],"clearCoatGlossMapOffset":[0,0],"clearCoatGlossVertexColor":false,"clearCoatGlossVertexColorChannel":"r","clearCoatBumpiness":1,"clearCoatNormalMap":null,"clearCoatNormalMapUv":0,"clearCoatNormalMapTiling":[1,1],"clearCoatNormalMapOffset":[0,0],"clearCoatGloss":1},"preload":true,"tags":[],"i18n":{},"id":"130374797"},"130374798":{"name":"loading-screen.js","type":"script","file":{"filename":"loading-screen.js","size":3206,"hash":"3b3200cf5ce973c4dc9cb16bef3d2660","url":"files/assets/130374798/1/loading-screen.js"},"data":{"scripts":{},"loading":true,"loadingType":0},"preload":false,"tags":[],"i18n":{},"id":"130374798"},"130374799":{"name":"board_mat","type":"material","file":null,"data":{"ambient":[0,0,0],"ambientTint":false,"aoMap":null,"aoMapChannel":"r","aoMapUv":0,"aoMapTiling":[1,1],"aoMapOffset":[0,0],"diffuse":[0.9725490196078431,0.9725490196078431,0.9725490196078431],"diffuseMap":null,"diffuseMapChannel":"rgb","diffuseMapUv":0,"diffuseMapTiling":[1,1],"diffuseMapOffset":[0,0],"specular":[0.5294117647058824,0.2196078431372549,0.2196078431372549],"specularMap":null,"specularMapChannel":"rgb","specularMapUv":0,"specularMapTiling":[1,1],"specularMapOffset":[0,0],"specularAntialias":true,"occludeSpecular":1,"useMetalness":false,"metalness":1,"metalnessMap":null,"metalnessMapChannel":"r","metalnessMapUv":0,"metalnessMapTiling":[1,1],"metalnessMapOffset":[0,0],"conserveEnergy":true,"shininess":100,"glossMap":null,"glossMapChannel":"r","glossMapUv":0,"glossMapTiling":[1,1],"glossMapOffset":[0,0],"fresnelModel":0,"emissive":[0.3764705882352941,0.19607843137254902,0.19607843137254902],"emissiveMap":null,"emissiveMapChannel":"rgb","emissiveMapUv":0,"emissiveMapTiling":[1,1],"emissiveMapOffset":[0,0],"emissiveIntensity":0,"normalMap":null,"normalMapTiling":[1,1],"normalMapOffset":[0,0],"normalMapUv":0,"bumpMapFactor":1,"heightMap":null,"heightMapChannel":"r","heightMapUv":0,"heightMapTiling":[1,1],"heightMapOffset":[0,0],"heightMapFactor":1,"alphaToCoverage":false,"alphaTest":0,"opacity":1,"opacityMap":null,"opacityMapChannel":"r","opacityMapUv":0,"opacityMapTiling":[1,1],"opacityMapOffset":[0,0],"reflectivity":1,"refraction":0,"refractionIndex":0.6666666666666666,"sphereMap":null,"cubeMap":null,"cubeMapProjection":0,"cubeMapProjectionBox":{"center":[0,0,0],"halfExtents":[0.5,0.5,0.5]},"lightMap":null,"lightMapChannel":"rgb","lightMapUv":1,"lightMapTiling":[1,1],"lightMapOffset":[0,0],"depthTest":true,"depthWrite":true,"cull":1,"blendType":3,"shader":"blinn","useFog":true,"useLighting":true,"useSkybox":true,"useGammaTonemap":true,"aoMapVertexColor":false,"diffuseMapVertexColor":false,"emissiveMapVertexColor":false,"specularMapVertexColor":false,"metalnessMapVertexColor":false,"opacityMapVertexColor":false,"glossMapVertexColor":false,"lightMapVertexColor":false,"diffuseMapTint":false,"specularMapTint":false,"emissiveMapTint":false,"metalnessMapTint":false,"opacityFadesSpecular":true,"alphaFade":1,"clearCoat":0,"clearCoatMap":null,"clearCoatMapChannel":"r","clearCoatMapUv":0,"clearCoatMapTiling":[1,1],"clearCoatMapOffset":[0,0],"clearCoatVertexColor":false,"clearCoatVertexColorChannel":"r","clearCoatGlossiness":1,"clearCoatGlossMap":null,"clearCoatGlossMapChannel":"r","clearCoatGlossMapUv":0,"clearCoatGlossMapTiling":[1,1],"clearCoatGlossMapOffset":[0,0],"clearCoatGlossVertexColor":false,"clearCoatGlossVertexColorChannel":"r","clearCoatBumpiness":1,"clearCoatNormalMap":null,"clearCoatNormalMapUv":0,"clearCoatNormalMapTiling":[1,1],"clearCoatNormalMapOffset":[0,0],"clearCoatGloss":1},"preload":true,"tags":[],"i18n":{},"id":"130374799"},"130374800":{"name":"bg_mat","type":"material","file":null,"data":{"ambient":[0,0,0],"ambientTint":false,"aoMap":null,"aoMapChannel":"r","aoMapUv":0,"aoMapTiling":[1,1],"aoMapOffset":[0,0],"diffuse":[1,1,1],"diffuseMap":null,"diffuseMapChannel":"rgb","diffuseMapUv":0,"diffuseMapTiling":[1,1],"diffuseMapOffset":[0,0],"specular":[0.23,0.23,0.23],"specularMap":null,"specularMapChannel":"rgb","specularMapUv":0,"specularMapTiling":[1,1],"specularMapOffset":[0,0],"specularAntialias":true,"occludeSpecular":1,"useMetalness":false,"metalness":1,"metalnessMap":null,"metalnessMapChannel":"r","metalnessMapUv":0,"metalnessMapTiling":[1,1],"metalnessMapOffset":[0,0],"conserveEnergy":true,"shininess":32,"glossMap":null,"glossMapChannel":"r","glossMapUv":0,"glossMapTiling":[1,1],"glossMapOffset":[0,0],"fresnelModel":0,"emissive":[1,1,1],"emissiveMap":null,"emissiveMapChannel":"rgb","emissiveMapUv":1,"emissiveMapTiling":[1,1],"emissiveMapOffset":[0,0],"emissiveIntensity":0,"normalMap":null,"normalMapTiling":[1,1],"normalMapOffset":[0,0],"normalMapUv":0,"bumpMapFactor":1,"heightMap":null,"heightMapChannel":"r","heightMapUv":0,"heightMapTiling":[1,1],"heightMapOffset":[0,0],"heightMapFactor":1,"alphaToCoverage":false,"alphaTest":0,"opacity":1,"opacityMap":null,"opacityMapChannel":"r","opacityMapUv":0,"opacityMapTiling":[1,1],"opacityMapOffset":[0,0],"reflectivity":1,"refraction":0,"refractionIndex":0.6666666666666666,"sphereMap":null,"cubeMap":null,"cubeMapProjection":0,"cubeMapProjectionBox":{"center":[0,0,0],"halfExtents":[0.5,0.5,0.5]},"lightMap":null,"lightMapChannel":"rgb","lightMapUv":1,"lightMapTiling":[1,1],"lightMapOffset":[0,0],"depthTest":true,"depthWrite":true,"cull":1,"blendType":3,"shader":"blinn","useFog":true,"useLighting":true,"useSkybox":true,"useGammaTonemap":true,"aoMapVertexColor":false,"diffuseMapVertexColor":false,"emissiveMapVertexColor":false,"specularMapVertexColor":false,"metalnessMapVertexColor":false,"opacityMapVertexColor":false,"glossMapVertexColor":false,"lightMapVertexColor":false,"diffuseMapTint":false,"specularMapTint":false,"emissiveMapTint":true,"metalnessMapTint":false,"opacityFadesSpecular":true,"alphaFade":1,"clearCoat":0,"clearCoatMap":null,"clearCoatMapChannel":"r","clearCoatMapUv":0,"clearCoatMapTiling":[1,1],"clearCoatMapOffset":[0,0],"clearCoatVertexColor":false,"clearCoatVertexColorChannel":"r","clearCoatGlossiness":1,"clearCoatGlossMap":null,"clearCoatGlossMapChannel":"r","clearCoatGlossMapUv":0,"clearCoatGlossMapTiling":[1,1],"clearCoatGlossMapOffset":[0,0],"clearCoatGlossVertexColor":false,"clearCoatGlossVertexColorChannel":"r","clearCoatBumpiness":1,"clearCoatNormalMap":null,"clearCoatNormalMapUv":0,"clearCoatNormalMapTiling":[1,1],"clearCoatNormalMapOffset":[0,0],"clearCoatGloss":1},"preload":true,"tags":[],"i18n":{},"id":"130374800"},"130374801":{"name":"ball_mat","type":"material","file":null,"data":{"ambient":[0.7294117647058823,0.00784313725490196,0.1411764705882353],"ambientTint":false,"aoMap":null,"aoMapChannel":"r","aoMapUv":0,"aoMapTiling":[1,1],"aoMapOffset":[0,0],"diffuse":[0.9215686274509803,0,0.10588235294117647],"diffuseMap":null,"diffuseMapChannel":"rgb","diffuseMapUv":0,"diffuseMapTiling":[1,1],"diffuseMapOffset":[0,0],"specular":[1,0.4549019607843137,0.5098039215686274],"specularMap":null,"specularMapChannel":"rgb","specularMapUv":0,"specularMapTiling":[1,1],"specularMapOffset":[0,0],"specularAntialias":true,"occludeSpecular":1,"useMetalness":false,"metalness":1,"metalnessMap":null,"metalnessMapChannel":"r","metalnessMapUv":0,"metalnessMapTiling":[1,1],"metalnessMapOffset":[0,0],"conserveEnergy":true,"shininess":29.68,"glossMap":null,"glossMapChannel":"r","glossMapUv":0,"glossMapTiling":[1,1],"glossMapOffset":[0,0],"fresnelModel":0,"emissive":[0.7294117647058823,0.00784313725490196,0.1411764705882353],"emissiveMap":null,"emissiveMapChannel":"r","emissiveMapUv":0,"emissiveMapTiling":[1,1],"emissiveMapOffset":[0,0],"emissiveIntensity":3.96,"normalMap":130374776,"normalMapTiling":[1,1],"normalMapOffset":[0,0],"normalMapUv":0,"bumpMapFactor":0.143,"heightMap":null,"heightMapChannel":"r","heightMapUv":0,"heightMapTiling":[1,1],"heightMapOffset":[0,0],"heightMapFactor":1,"alphaToCoverage":false,"alphaTest":0,"opacity":1,"opacityMap":null,"opacityMapChannel":"r","opacityMapUv":0,"opacityMapTiling":[1,1],"opacityMapOffset":[0,0],"reflectivity":1,"refraction":0,"refractionIndex":0.6666666666666666,"sphereMap":null,"cubeMap":null,"cubeMapProjection":0,"cubeMapProjectionBox":{"center":[0,0,0],"halfExtents":[0.5,0.5,0.5]},"lightMap":null,"lightMapChannel":"rgb","lightMapUv":1,"lightMapTiling":[1,1],"lightMapOffset":[0,0],"depthTest":true,"depthWrite":true,"cull":1,"blendType":3,"shader":"blinn","useFog":true,"useLighting":true,"useSkybox":true,"useGammaTonemap":true,"aoMapVertexColor":false,"diffuseMapVertexColor":false,"emissiveMapVertexColor":false,"specularMapVertexColor":false,"metalnessMapVertexColor":false,"opacityMapVertexColor":false,"glossMapVertexColor":false,"lightMapVertexColor":false,"diffuseMapTint":true,"specularMapTint":true,"emissiveMapTint":true,"metalnessMapTint":false,"opacityFadesSpecular":true,"alphaFade":1,"clearCoat":0,"clearCoatMap":null,"clearCoatMapChannel":"r","clearCoatMapUv":0,"clearCoatMapTiling":[1,1],"clearCoatMapOffset":[0,0],"clearCoatVertexColor":false,"clearCoatVertexColorChannel":"r","clearCoatGlossiness":1,"clearCoatGlossMap":null,"clearCoatGlossMapChannel":"r","clearCoatGlossMapUv":0,"clearCoatGlossMapTiling":[1,1],"clearCoatGlossMapOffset":[0,0],"clearCoatGlossVertexColor":false,"clearCoatGlossVertexColorChannel":"r","clearCoatBumpiness":1,"clearCoatNormalMap":null,"clearCoatNormalMapUv":0,"clearCoatNormalMapTiling":[1,1],"clearCoatNormalMapOffset":[0,0],"clearCoatGloss":1},"preload":true,"tags":[],"i18n":{},"id":"130374801"},"130374802":{"name":"screen_mat","type":"material","file":null,"data":{"ambient":[0,0,0],"ambientTint":false,"aoMap":null,"aoMapChannel":"r","aoMapUv":0,"aoMapTiling":[1,1],"aoMapOffset":[0,0],"diffuse":[0.9803921568627451,0.9921568627450981,1],"diffuseMap":null,"diffuseMapChannel":"rgb","diffuseMapUv":0,"diffuseMapTiling":[1,1],"diffuseMapOffset":[0,0],"specular":[0,0,0],"specularMap":null,"specularMapChannel":"rgb","specularMapUv":0,"specularMapTiling":[1,1],"specularMapOffset":[0,0],"specularAntialias":true,"occludeSpecular":1,"useMetalness":false,"metalness":1,"metalnessMap":null,"metalnessMapChannel":"r","metalnessMapUv":0,"metalnessMapTiling":[1,1],"metalnessMapOffset":[0,0],"conserveEnergy":true,"shininess":0,"glossMap":null,"glossMapChannel":"r","glossMapUv":0,"glossMapTiling":[1,1],"glossMapOffset":[0,0],"fresnelModel":0,"emissive":[1,0.7490196078431373,0],"emissiveMap":null,"emissiveMapChannel":"rgb","emissiveMapUv":0,"emissiveMapTiling":[1,1],"emissiveMapOffset":[0,0],"emissiveIntensity":0,"normalMap":null,"normalMapTiling":[1,1],"normalMapOffset":[0,0],"normalMapUv":0,"bumpMapFactor":1,"heightMap":null,"heightMapChannel":"r","heightMapUv":0,"heightMapTiling":[1,1],"heightMapOffset":[0,0],"heightMapFactor":1,"alphaToCoverage":false,"alphaTest":0,"opacity":1,"opacityMap":null,"opacityMapChannel":"r","opacityMapUv":0,"opacityMapTiling":[1,1],"opacityMapOffset":[0,0],"reflectivity":1,"refraction":0,"refractionIndex":0.6666666666666666,"sphereMap":null,"cubeMap":null,"cubeMapProjection":0,"cubeMapProjectionBox":{"center":[0,0,0],"halfExtents":[0.5,0.5,0.5]},"lightMap":null,"lightMapChannel":"rgb","lightMapUv":1,"lightMapTiling":[1,1],"lightMapOffset":[0,0],"depthTest":true,"depthWrite":true,"cull":1,"blendType":3,"shader":"blinn","useFog":true,"useLighting":true,"useSkybox":true,"useGammaTonemap":true,"aoMapVertexColor":false,"diffuseMapVertexColor":false,"emissiveMapVertexColor":false,"specularMapVertexColor":false,"metalnessMapVertexColor":false,"opacityMapVertexColor":false,"glossMapVertexColor":false,"lightMapVertexColor":false,"diffuseMapTint":false,"specularMapTint":false,"emissiveMapTint":false,"metalnessMapTint":false,"opacityFadesSpecular":true,"alphaFade":1,"clearCoat":0,"clearCoatMap":null,"clearCoatMapChannel":"r","clearCoatMapUv":0,"clearCoatMapTiling":[1,1],"clearCoatMapOffset":[0,0],"clearCoatVertexColor":false,"clearCoatVertexColorChannel":"r","clearCoatGlossiness":1,"clearCoatGlossMap":null,"clearCoatGlossMapChannel":"r","clearCoatGlossMapUv":0,"clearCoatGlossMapTiling":[1,1],"clearCoatGlossMapOffset":[0,0],"clearCoatGlossVertexColor":false,"clearCoatGlossVertexColorChannel":"r","clearCoatBumpiness":1,"clearCoatNormalMap":null,"clearCoatNormalMapUv":0,"clearCoatNormalMapTiling":[1,1],"clearCoatNormalMapOffset":[0,0],"clearCoatGloss":1},"preload":true,"tags":[],"i18n":{},"id":"130374802"},"130374803":{"name":"New Material","type":"material","file":null,"data":{"ambient":[0,0,0],"ambientTint":false,"aoMap":null,"aoMapChannel":"r","aoMapUv":0,"aoMapTiling":[1,1],"aoMapOffset":[0,0],"diffuse":[0,0,0],"diffuseMap":null,"diffuseMapChannel":"rgb","diffuseMapUv":0,"diffuseMapTiling":[1,1],"diffuseMapOffset":[0,0],"specular":[0,0,0],"specularMap":null,"specularMapChannel":"rgb","specularMapUv":0,"specularMapTiling":[1,1],"specularMapOffset":[0,0],"specularAntialias":true,"occludeSpecular":1,"useMetalness":false,"metalness":1,"metalnessMap":null,"metalnessMapChannel":"r","metalnessMapUv":0,"metalnessMapTiling":[1,1],"metalnessMapOffset":[0,0],"conserveEnergy":true,"shininess":0,"glossMap":null,"glossMapChannel":"r","glossMapUv":0,"glossMapTiling":[1,1],"glossMapOffset":[0,0],"fresnelModel":0,"emissive":[0,0,0],"emissiveMap":null,"emissiveMapChannel":"rgb","emissiveMapUv":0,"emissiveMapTiling":[1,1],"emissiveMapOffset":[0,0],"emissiveIntensity":0,"normalMap":null,"normalMapTiling":[1,1],"normalMapOffset":[0,0],"normalMapUv":0,"bumpMapFactor":1,"heightMap":null,"heightMapChannel":"r","heightMapUv":0,"heightMapTiling":[1,1],"heightMapOffset":[0,0],"heightMapFactor":1,"alphaToCoverage":false,"alphaTest":0,"opacity":0.75,"opacityMap":null,"opacityMapChannel":"r","opacityMapUv":0,"opacityMapTiling":[1,1],"opacityMapOffset":[0,0],"reflectivity":1,"refraction":0,"refractionIndex":0.6666666666666666,"sphereMap":null,"cubeMap":null,"cubeMapProjection":0,"cubeMapProjectionBox":{"center":[0,0,0],"halfExtents":[0.5,0.5,0.5]},"lightMap":null,"lightMapChannel":"rgb","lightMapUv":1,"lightMapTiling":[1,1],"lightMapOffset":[0,0],"depthTest":true,"depthWrite":true,"cull":1,"blendType":2,"shader":"blinn","useFog":true,"useLighting":true,"useSkybox":true,"useGammaTonemap":true,"aoMapVertexColor":false,"diffuseMapVertexColor":false,"emissiveMapVertexColor":false,"specularMapVertexColor":false,"metalnessMapVertexColor":false,"opacityMapVertexColor":false,"glossMapVertexColor":false,"lightMapVertexColor":false,"diffuseMapTint":true,"specularMapTint":false,"emissiveMapTint":false,"metalnessMapTint":false,"opacityFadesSpecular":true,"alphaFade":1,"clearCoat":0,"clearCoatMap":null,"clearCoatMapChannel":"r","clearCoatMapUv":0,"clearCoatMapTiling":[1,1],"clearCoatMapOffset":[0,0],"clearCoatVertexColor":false,"clearCoatVertexColorChannel":"r","clearCoatGlossiness":1,"clearCoatGlossMap":null,"clearCoatGlossMapChannel":"r","clearCoatGlossMapUv":0,"clearCoatGlossMapTiling":[1,1],"clearCoatGlossMapOffset":[0,0],"clearCoatGlossVertexColor":false,"clearCoatGlossVertexColorChannel":"r","clearCoatBumpiness":1,"clearCoatNormalMap":null,"clearCoatNormalMapUv":0,"clearCoatNormalMapTiling":[1,1],"clearCoatNormalMapOffset":[0,0],"clearCoatGloss":1},"preload":true,"tags":[],"i18n":{},"id":"130374803"},"130374804":{"name":"assign-number-colors.js","type":"script","file":{"filename":"__game-scripts.js","size":19265,"hash":"e3f341546ec5aa61d2430d658d5289bd","url":"__game-scripts.js"},"data":{"scripts":{"assignNumberColors":{"attributesOrder":["colorValueIndex"],"attributes":{"colorValueIndex":{"type":"number"}}}},"loading":false,"loadingType":0},"preload":true,"tags":[],"i18n":{},"id":"130374804"},"130374805":{"name":"logo.png","type":"texture","file":{"filename":"logo.png","hash":"bbb9dec8288b9d2f41164129317f53e5","size":19676,"variants":{},"url":"files/assets/130374805/1/logo.png"},"data":{"addressu":"repeat","addressv":"repeat","minfilter":"linear_mip_linear","magfilter":"linear","anisotropy":5,"rgbm":false,"mipmaps":true},"preload":true,"tags":[],"i18n":{},"id":"130374805"},"130375289":{"name":"ammo.js","type":"script","file":{"filename":"ammo.js","size":1895438,"hash":"34480c72ed787337db20c105cb9ba69d","url":"files/assets/130375289/1/ammo.js"},"data":{"order":100,"scripts":{},"loadingType":0},"preload":false,"tags":[],"i18n":{},"id":"130375289"},"130375290":{"name":"ammo.wasm.js","type":"script","file":{"filename":"ammo.wasm.js","size":391789,"hash":"6b7ab3989e4f9f17c86e44380f9181c6","url":"files/assets/130375290/1/ammo.wasm.js"},"data":{"order":100,"scripts":{},"loadingType":0},"preload":false,"tags":[],"i18n":{},"id":"130375290"},"130375291":{"name":"ammo.wasm.wasm","type":"wasm","file":{"filename":"ammo.wasm.wasm","size":659433,"hash":"a6819ea71a53e67f1dfe3e42957c2971","url":"files/assets/130375291/1/ammo.wasm.wasm"},"data":{"moduleName":"Ammo","glueScriptId":130375290,"fallbackScriptId":130375289,"loadingType":0},"preload":false,"tags":[],"i18n":{},"id":"130375291"}}}
+{
+    "application_properties": {
+        "antiAlias": true,
+        "fillMode": "FILL_WINDOW",
+        "resolutionMode": "AUTO",
+        "height": 720,
+        "width": 1280,
+        "use3dPhysics": false,
+        "preferWebGl2": true,
+        "preserveDrawingBuffer": false,
+        "scripts": [
+            130374796,
+            130374773,
+            130374783,
+            130374786,
+            130374792,
+            130374793,
+            130374775,
+            130374779,
+            130374787,
+            130374789,
+            130374804
+        ],
+        "transparentCanvas": true,
+        "useDevicePixelRatio": false,
+        "useLegacyScripts": false,
+        "vr": true,
+        "loadingScreenScript": "130374798",
+        "useLegacyAmmoPhysics": true,
+        "batchGroups": [],
+        "layers": {
+            "0": {
+                "name": "World",
+                "opaqueSortMode": 2,
+                "transparentSortMode": 3
+            },
+            "1": {
+                "name": "Depth",
+                "opaqueSortMode": 2,
+                "transparentSortMode": 3
+            },
+            "2": {
+                "name": "Skybox",
+                "opaqueSortMode": 0,
+                "transparentSortMode": 3
+            },
+            "3": {
+                "name": "Immediate",
+                "opaqueSortMode": 0,
+                "transparentSortMode": 3
+            },
+            "4": {
+                "name": "UI",
+                "opaqueSortMode": 1,
+                "transparentSortMode": 1
+            }
+        },
+        "layerOrder": [
+            {
+                "layer": 0,
+                "transparent": false,
+                "enabled": true
+            },
+            {
+                "layer": 1,
+                "transparent": false,
+                "enabled": true
+            },
+            {
+                "layer": 2,
+                "transparent": false,
+                "enabled": true
+            },
+            {
+                "layer": 0,
+                "transparent": true,
+                "enabled": true
+            },
+            {
+                "layer": 3,
+                "transparent": false,
+                "enabled": true
+            },
+            {
+                "layer": 3,
+                "transparent": true,
+                "enabled": true
+            },
+            {
+                "layer": 4,
+                "transparent": true,
+                "enabled": true
+            }
+        ],
+        "useKeyboard": true,
+        "useMouse": true,
+        "useTouch": true,
+        "useGamepads": true,
+        "i18nAssets": [],
+        "externalScripts": [],
+        "powerPreference": "default",
+        "maxAssetRetries": 0,
+        "libraries": []
+    },
+    "scenes": [
+        {
+            "name": "Main Scene",
+            "url": "1725123.json"
+        }
+    ],
+    "assets": {
+        "130374770": {
+            "name": "Arrow.json",
+            "type": "model",
+            "file": {
+                "hash": "4ebef610a968c34083d7e8a98a665834",
+                "size": 16140,
+                "filename": "Arrow.json",
+                "url": "files/assets/130374770/1/Arrow.json"
+            },
+            "data": {
+                "mapping": [
+                    {
+                        "material": null
+                    }
+                ],
+                "area": 0
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374770"
+        },
+        "130374771": {
+            "name": "neutradisp-titling.otf",
+            "type": "font",
+            "file": {
+                "filename": "neutradisp-titling.png",
+                "hash": "36282812448ff2e8d25a7fa3689a7919",
+                "size": 46943,
+                "url": "files/assets/130374771/1/neutradisp-titling.png"
+            },
+            "data": {
+                "version": 2,
+                "intensity": 0,
+                "info": {
+                    "face": "neutradisp-titling",
+                    "maps": [
+                        {
+                            "width": 512,
+                            "height": 512
+                        }
+                    ]
+                },
+                "chars": {
+                    "43": {
+                        "id": 43,
+                        "letter": "+",
+                        "x": 1,
+                        "y": 1,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 13.536,
+                        "xoffset": 25.232,
+                        "yoffset": 21.488,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.864,
+                            4.384,
+                            12.672,
+                            16.64
+                        ]
+                    },
+                    "44": {
+                        "id": 44,
+                        "letter": ",",
+                        "x": 67,
+                        "y": 1,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 8.704,
+                        "xoffset": 27.648,
+                        "yoffset": 30.832,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            1.152,
+                            -3.616,
+                            7.552,
+                            5.952
+                        ]
+                    },
+                    "46": {
+                        "id": 46,
+                        "letter": ".",
+                        "x": 133,
+                        "y": 1,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 8.704,
+                        "xoffset": 27.648,
+                        "yoffset": 29.184,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            1.152,
+                            -0.32,
+                            7.552,
+                            5.952
+                        ]
+                    },
+                    "48": {
+                        "id": 48,
+                        "letter": "0",
+                        "x": 199,
+                        "y": 1,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 25.024,
+                        "xoffset": 19.488,
+                        "yoffset": 21.136,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.832,
+                            -0.288,
+                            24.192,
+                            22.016
+                        ]
+                    },
+                    "49": {
+                        "id": 49,
+                        "letter": "1",
+                        "x": 265,
+                        "y": 1,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 11.744,
+                        "xoffset": 26.864,
+                        "yoffset": 21.12,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.672,
+                            0,
+                            9.6,
+                            21.76
+                        ]
+                    },
+                    "50": {
+                        "id": 50,
+                        "letter": "2",
+                        "x": 331,
+                        "y": 1,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 18.528,
+                        "xoffset": 23.1521871624,
+                        "yoffset": 20.992,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.127625675248,
+                            0,
+                            17.568,
+                            22.016
+                        ]
+                    },
+                    "51": {
+                        "id": 51,
+                        "letter": "3",
+                        "x": 397,
+                        "y": 1,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 19.36,
+                        "xoffset": 22.5739537506,
+                        "yoffset": 21.28,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.32,
+                            -0.32,
+                            18.5320924989,
+                            21.76
+                        ]
+                    },
+                    "52": {
+                        "id": 52,
+                        "letter": "4",
+                        "x": 1,
+                        "y": 67,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 21.28,
+                        "xoffset": 21.344,
+                        "yoffset": 21.12,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            1.088,
+                            0,
+                            20.224,
+                            21.76
+                        ]
+                    },
+                    "53": {
+                        "id": 53,
+                        "letter": "5",
+                        "x": 67,
+                        "y": 67,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 18.976,
+                        "xoffset": 22.768,
+                        "yoffset": 21.28,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.32,
+                            -0.32,
+                            18.144,
+                            21.76
+                        ]
+                    },
+                    "54": {
+                        "id": 54,
+                        "letter": "6",
+                        "x": 133,
+                        "y": 67,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 19.584,
+                        "xoffset": 22.176,
+                        "yoffset": 21.28,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.832,
+                            -0.32,
+                            18.816,
+                            21.76
+                        ]
+                    },
+                    "55": {
+                        "id": 55,
+                        "letter": "7",
+                        "x": 199,
+                        "y": 67,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 18.752,
+                        "xoffset": 22.3179537506,
+                        "yoffset": 21.12,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.8,
+                            0,
+                            18.5640924989,
+                            21.76
+                        ]
+                    },
+                    "56": {
+                        "id": 56,
+                        "letter": "8",
+                        "x": 265,
+                        "y": 67,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 19.36,
+                        "xoffset": 22.32,
+                        "yoffset": 21.152,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.768,
+                            -0.32,
+                            18.592,
+                            22.016
+                        ]
+                    },
+                    "57": {
+                        "id": 57,
+                        "letter": "9",
+                        "x": 331,
+                        "y": 67,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 19.584,
+                        "xoffset": 22.24,
+                        "yoffset": 20.96,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.768,
+                            0,
+                            18.752,
+                            22.08
+                        ]
+                    },
+                    "58": {
+                        "id": 58,
+                        "letter": ":",
+                        "x": 397,
+                        "y": 67,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 8.896,
+                        "xoffset": 27.552,
+                        "yoffset": 24.752,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            1.248,
+                            -0.32,
+                            7.648,
+                            14.816
+                        ]
+                    },
+                    "65": {
+                        "id": 65,
+                        "letter": "A",
+                        "x": 1,
+                        "y": 133,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 21.792,
+                        "xoffset": 21.104,
+                        "yoffset": 20.844,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.128,
+                            0,
+                            21.664,
+                            22.312
+                        ]
+                    },
+                    "66": {
+                        "id": 66,
+                        "letter": "B",
+                        "x": 67,
+                        "y": 133,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 20.416,
+                        "xoffset": 21.152,
+                        "yoffset": 21.12,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            1.888,
+                            0,
+                            19.808,
+                            21.76
+                        ]
+                    },
+                    "67": {
+                        "id": 67,
+                        "letter": "C",
+                        "x": 133,
+                        "y": 133,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 22.08,
+                        "xoffset": 20.72,
+                        "yoffset": 21.136,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.832,
+                            -0.288,
+                            21.728,
+                            22.016
+                        ]
+                    },
+                    "68": {
+                        "id": 68,
+                        "letter": "D",
+                        "x": 199,
+                        "y": 133,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 22.016,
+                        "xoffset": 20.4,
+                        "yoffset": 21.12,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            1.888,
+                            0,
+                            21.312,
+                            21.76
+                        ]
+                    },
+                    "69": {
+                        "id": 69,
+                        "letter": "E",
+                        "x": 265,
+                        "y": 133,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 18.528,
+                        "xoffset": 22.256,
+                        "yoffset": 21.12,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            1.888,
+                            0,
+                            17.6,
+                            21.76
+                        ]
+                    },
+                    "70": {
+                        "id": 70,
+                        "letter": "F",
+                        "x": 331,
+                        "y": 133,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 17.664,
+                        "xoffset": 22.72,
+                        "yoffset": 21.12,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            1.888,
+                            0,
+                            16.672,
+                            21.76
+                        ]
+                    },
+                    "71": {
+                        "id": 71,
+                        "letter": "G",
+                        "x": 397,
+                        "y": 133,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 23.04,
+                        "xoffset": 20.576,
+                        "yoffset": 21.136,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.832,
+                            -0.288,
+                            22.016,
+                            22.016
+                        ]
+                    },
+                    "72": {
+                        "id": 72,
+                        "letter": "H",
+                        "x": 1,
+                        "y": 199,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 22.976,
+                        "xoffset": 20.512,
+                        "yoffset": 21.12,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            1.888,
+                            0,
+                            21.088,
+                            21.76
+                        ]
+                    },
+                    "73": {
+                        "id": 73,
+                        "letter": "I",
+                        "x": 67,
+                        "y": 199,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 9.856,
+                        "xoffset": 27.072,
+                        "yoffset": 21.12,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            2.016,
+                            0,
+                            7.84,
+                            21.76
+                        ]
+                    },
+                    "74": {
+                        "id": 74,
+                        "letter": "J",
+                        "x": 133,
+                        "y": 199,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 15.552,
+                        "xoffset": 24.992,
+                        "yoffset": 21.28,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.192,
+                            -0.32,
+                            13.824,
+                            21.76
+                        ]
+                    },
+                    "75": {
+                        "id": 75,
+                        "letter": "K",
+                        "x": 199,
+                        "y": 199,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 21.824,
+                        "xoffset": 20.256,
+                        "yoffset": 21.12,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            1.888,
+                            0,
+                            21.6,
+                            21.76
+                        ]
+                    },
+                    "76": {
+                        "id": 76,
+                        "letter": "L",
+                        "x": 265,
+                        "y": 199,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 17.76,
+                        "xoffset": 22.576,
+                        "yoffset": 21.12,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            1.888,
+                            0,
+                            16.96,
+                            21.76
+                        ]
+                    },
+                    "77": {
+                        "id": 77,
+                        "letter": "M",
+                        "x": 331,
+                        "y": 199,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 26.464,
+                        "xoffset": 18.768,
+                        "yoffset": 20.928,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            1.312,
+                            0,
+                            25.152,
+                            22.144
+                        ]
+                    },
+                    "78": {
+                        "id": 78,
+                        "letter": "N",
+                        "x": 397,
+                        "y": 199,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 23.36,
+                        "xoffset": 20.32,
+                        "yoffset": 21.1455516944,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            1.888,
+                            -0.560326530612,
+                            21.472,
+                            22.2692231419
+                        ]
+                    },
+                    "79": {
+                        "id": 79,
+                        "letter": "O",
+                        "x": 1,
+                        "y": 265,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 25.024,
+                        "xoffset": 19.488,
+                        "yoffset": 21.136,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.832,
+                            -0.288,
+                            24.192,
+                            22.016
+                        ]
+                    },
+                    "80": {
+                        "id": 80,
+                        "letter": "P",
+                        "x": 67,
+                        "y": 265,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 20.096,
+                        "xoffset": 21.408,
+                        "yoffset": 21.12,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            1.888,
+                            0,
+                            19.296,
+                            21.76
+                        ]
+                    },
+                    "81": {
+                        "id": 81,
+                        "letter": "Q",
+                        "x": 133,
+                        "y": 265,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 25.024,
+                        "xoffset": 19.488,
+                        "yoffset": 22.976,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.832,
+                            -3.968,
+                            24.192,
+                            22.016
+                        ]
+                    },
+                    "82": {
+                        "id": 82,
+                        "letter": "R",
+                        "x": 199,
+                        "y": 265,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 20.128,
+                        "xoffset": 21.408,
+                        "yoffset": 21.12,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            1.888,
+                            0,
+                            19.296,
+                            21.76
+                        ]
+                    },
+                    "83": {
+                        "id": 83,
+                        "letter": "S",
+                        "x": 265,
+                        "y": 265,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 18.176,
+                        "xoffset": 23.232,
+                        "yoffset": 21.152,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.128,
+                            -0.32,
+                            17.408,
+                            22.016
+                        ]
+                    },
+                    "84": {
+                        "id": 84,
+                        "letter": "T",
+                        "x": 331,
+                        "y": 265,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 18.816,
+                        "xoffset": 22.592,
+                        "yoffset": 21.12,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.736,
+                            0,
+                            18.08,
+                            21.76
+                        ]
+                    },
+                    "85": {
+                        "id": 85,
+                        "letter": "U",
+                        "x": 397,
+                        "y": 265,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 22.208,
+                        "xoffset": 20.896,
+                        "yoffset": 21.28,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            1.664,
+                            -0.32,
+                            20.544,
+                            21.76
+                        ]
+                    },
+                    "86": {
+                        "id": 86,
+                        "letter": "V",
+                        "x": 1,
+                        "y": 331,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 21.152,
+                        "xoffset": 21.424,
+                        "yoffset": 21.304,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.128,
+                            -0.368,
+                            21.024,
+                            21.76
+                        ]
+                    },
+                    "87": {
+                        "id": 87,
+                        "letter": "W",
+                        "x": 67,
+                        "y": 331,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 29.952,
+                        "xoffset": 17.024,
+                        "yoffset": 21.076,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.128,
+                            -0.448,
+                            29.824,
+                            22.296
+                        ]
+                    },
+                    "88": {
+                        "id": 88,
+                        "letter": "X",
+                        "x": 133,
+                        "y": 331,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 21.984,
+                        "xoffset": 21.008,
+                        "yoffset": 21.12,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.288,
+                            0,
+                            21.696,
+                            21.76
+                        ]
+                    },
+                    "89": {
+                        "id": 89,
+                        "letter": "Y",
+                        "x": 199,
+                        "y": 331,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 22.592,
+                        "xoffset": 20.704,
+                        "yoffset": 21.12,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.128,
+                            0,
+                            22.464,
+                            21.76
+                        ]
+                    },
+                    "90": {
+                        "id": 90,
+                        "letter": "Z",
+                        "x": 265,
+                        "y": 331,
+                        "width": 64,
+                        "height": 64,
+                        "map": 0,
+                        "xadvance": 19.616,
+                        "xoffset": 22.32,
+                        "yoffset": 21.12,
+                        "scale": 1,
+                        "range": 8,
+                        "bounds": [
+                            0.261316519646,
+                            0,
+                            19.0986834804,
+                            21.76
+                        ]
+                    }
+                },
+                "kerning": {
+                    "43": {
+                        "49": -0.64,
+                        "50": -1.28,
+                        "51": -0.96,
+                        "53": -0.64,
+                        "55": -1.28
+                    },
+                    "44": {
+                        "48": -0.96,
+                        "49": -1.6,
+                        "52": -0.64,
+                        "54": -0.48,
+                        "55": -1.44,
+                        "56": -0.32,
+                        "57": -2.88,
+                        "65": 0.16,
+                        "67": -1.6,
+                        "71": -1.28,
+                        "74": 0.32,
+                        "79": -1.28,
+                        "81": -1.28,
+                        "83": 0.32,
+                        "84": -4.16,
+                        "85": -0.8,
+                        "86": -5.76,
+                        "87": -4.8,
+                        "89": -5.12
+                    },
+                    "46": {
+                        "48": -0.96,
+                        "49": -1.6,
+                        "52": -0.64,
+                        "54": -0.48,
+                        "55": -1.44,
+                        "56": -0.32,
+                        "57": -2.88,
+                        "65": 0.16,
+                        "67": -1.6,
+                        "71": -1.28,
+                        "74": 0.32,
+                        "79": -1.28,
+                        "81": -1.28,
+                        "83": 0.32,
+                        "84": -4.16,
+                        "85": -0.8,
+                        "86": -5.76,
+                        "87": -4.8,
+                        "89": -5.12
+                    },
+                    "48": {
+                        "44": -0.96,
+                        "46": -0.96,
+                        "50": -0.96,
+                        "51": -0.32,
+                        "55": -0.64
+                    },
+                    "49": {
+                        "52": -0.32
+                    },
+                    "50": {
+                        "51": -0.16,
+                        "52": -0.32,
+                        "53": 0.32,
+                        "54": -0.16
+                    },
+                    "51": {
+                        "49": 0.32,
+                        "50": -0.96,
+                        "55": -0.16,
+                        "57": -0.32
+                    },
+                    "52": {
+                        "49": -0.32,
+                        "50": -0.32,
+                        "55": -0.32,
+                        "57": -0.64
+                    },
+                    "53": {
+                        "44": -0.32,
+                        "46": -0.32,
+                        "49": -0.48,
+                        "50": -0.96,
+                        "55": -0.8,
+                        "57": -0.32
+                    },
+                    "54": {
+                        "44": -0.32,
+                        "46": -0.32,
+                        "49": -0.8,
+                        "50": -1.6,
+                        "55": -1.28,
+                        "57": -0.48,
+                        "58": -0.32
+                    },
+                    "55": {
+                        "43": -1.6,
+                        "44": -4.8,
+                        "46": -4.8,
+                        "48": -1.6,
+                        "49": 0.32,
+                        "50": -0.8,
+                        "51": -0.8,
+                        "52": -3.36,
+                        "53": -0.8,
+                        "54": -2.24,
+                        "56": -1.6,
+                        "57": -0.64,
+                        "58": -2.24
+                    },
+                    "56": {
+                        "44": -0.32,
+                        "46": -0.32,
+                        "49": -0.64,
+                        "50": -1.12,
+                        "55": -0.96,
+                        "57": -0.8,
+                        "58": -0.32
+                    },
+                    "57": {
+                        "44": -3.36,
+                        "46": -3.36,
+                        "50": -0.32,
+                        "51": -1.28,
+                        "52": -1.44,
+                        "53": -0.48,
+                        "54": -0.48,
+                        "56": -0.8,
+                        "58": -0.32
+                    },
+                    "58": {
+                        "49": -0.8,
+                        "50": -0.64,
+                        "54": -0.32,
+                        "55": -1.44,
+                        "56": -0.32,
+                        "57": -0.32,
+                        "77": -0.32,
+                        "84": -3.2,
+                        "86": -2.56,
+                        "87": -2.08,
+                        "88": -0.32,
+                        "89": -3.52
+                    },
+                    "65": {
+                        "44": 0.16,
+                        "46": 0.16,
+                        "67": -2.08,
+                        "71": -2.08,
+                        "77": 0.16,
+                        "79": -2.08,
+                        "81": -2.08,
+                        "84": -3.2,
+                        "85": -1.44,
+                        "86": -4.96,
+                        "87": -4.48,
+                        "89": -4.96,
+                        "90": 0.32
+                    },
+                    "66": {
+                        "65": -0.32,
+                        "84": -0.96,
+                        "86": -1.504,
+                        "87": -1.44,
+                        "88": -1.28,
+                        "89": -1.92,
+                        "90": -0.32
+                    },
+                    "67": {
+                        "65": -0.32,
+                        "71": -0.48,
+                        "77": 0.16,
+                        "79": -0.48,
+                        "81": -0.48,
+                        "86": -0.64,
+                        "87": -0.5760000000000001,
+                        "88": -1.6,
+                        "89": -0.96,
+                        "90": -0.32
+                    },
+                    "68": {
+                        "44": -0.64,
+                        "46": -0.64,
+                        "65": -1.6,
+                        "74": -1.44,
+                        "83": -0.32,
+                        "84": -0.8,
+                        "86": -1.6,
+                        "87": -1.28,
+                        "88": -2.08,
+                        "89": -1.92,
+                        "90": -1.12
+                    },
+                    "69": {
+                        "44": 0.32,
+                        "46": 0.32,
+                        "58": 0.32,
+                        "65": 0.48,
+                        "67": -0.32,
+                        "71": -0.32,
+                        "77": 0.16,
+                        "79": -0.32,
+                        "81": -0.32,
+                        "86": -0.32,
+                        "87": -0.32,
+                        "89": -0.32
+                    },
+                    "70": {
+                        "44": -1.6,
+                        "46": -1.6,
+                        "58": -0.32,
+                        "65": -2.24,
+                        "67": -0.32,
+                        "71": -0.32,
+                        "74": -2.88,
+                        "77": -0.48,
+                        "79": -0.32,
+                        "81": -0.32,
+                        "83": -0.48,
+                        "88": -0.8,
+                        "90": -0.32
+                    },
+                    "71": {
+                        "65": -0.32,
+                        "77": 0.32,
+                        "83": 0.32,
+                        "84": -0.96,
+                        "86": -1.44,
+                        "87": -1.28,
+                        "88": -0.96,
+                        "89": -1.6,
+                        "90": -0.16
+                    },
+                    "74": {
+                        "44": -0.48,
+                        "46": -0.48,
+                        "65": -1.44,
+                        "77": -0.16,
+                        "88": -0.64,
+                        "90": -0.32
+                    },
+                    "75": {
+                        "65": 0.32,
+                        "67": -2.24,
+                        "71": -2.24,
+                        "79": -2.24,
+                        "81": -2.24,
+                        "83": -0.48,
+                        "84": -0.48,
+                        "85": -0.5760000000000001,
+                        "86": -0.32,
+                        "87": -0.32,
+                        "88": 0.32,
+                        "89": -0.32,
+                        "90": 0.32
+                    },
+                    "76": {
+                        "44": 0.48,
+                        "46": 0.48,
+                        "58": 0.32,
+                        "65": 0.32,
+                        "67": -0.48,
+                        "71": -0.48,
+                        "79": -0.48,
+                        "81": -0.48,
+                        "84": -3.2,
+                        "85": -0.8,
+                        "86": -3.84,
+                        "87": -3.52,
+                        "89": -3.84
+                    },
+                    "77": {
+                        "58": -0.32,
+                        "65": 0.16,
+                        "84": -0.48,
+                        "85": -0.32,
+                        "86": -0.8,
+                        "87": -0.8,
+                        "89": -0.96
+                    },
+                    "79": {
+                        "44": -1.28,
+                        "46": -1.28,
+                        "65": -2.08,
+                        "74": -1.6,
+                        "83": -0.544,
+                        "84": -1.12,
+                        "86": -1.76,
+                        "87": -1.76,
+                        "88": -2.88,
+                        "89": -2.24,
+                        "90": -1.44
+                    },
+                    "80": {
+                        "44": -2.88,
+                        "46": -2.88,
+                        "65": -2.88,
+                        "67": 0.16,
+                        "71": 0.16,
+                        "74": -3.36,
+                        "77": -0.16,
+                        "79": 0.16,
+                        "81": 0.16,
+                        "83": -0.32,
+                        "84": -0.16,
+                        "86": -0.8,
+                        "87": -0.8,
+                        "88": -2.08,
+                        "89": -0.96,
+                        "90": -0.96
+                    },
+                    "81": {
+                        "44": -1.28,
+                        "46": -1.28,
+                        "65": -2.08,
+                        "74": -1.6,
+                        "83": -0.544,
+                        "84": -1.12,
+                        "86": -1.76,
+                        "87": -1.76,
+                        "88": -2.56,
+                        "89": -2.24,
+                        "90": -1.44
+                    },
+                    "82": {
+                        "67": 0.32,
+                        "71": 0.32,
+                        "74": -0.64,
+                        "79": 0.32,
+                        "81": 0.32,
+                        "86": -1.12,
+                        "87": -0.96,
+                        "89": -1.12
+                    },
+                    "83": {
+                        "65": -0.32,
+                        "67": 0.16,
+                        "71": 0.16,
+                        "79": 0.16,
+                        "81": 0.16,
+                        "84": -0.8,
+                        "86": -0.96,
+                        "87": -1.12,
+                        "88": -0.8,
+                        "89": -1.28,
+                        "90": -0.32
+                    },
+                    "84": {
+                        "44": -4.16,
+                        "46": -4.16,
+                        "58": -3.2,
+                        "65": -3.2,
+                        "67": -1.12,
+                        "71": -1.12,
+                        "74": -3.2,
+                        "77": -0.48,
+                        "79": -1.12,
+                        "81": -1.12,
+                        "83": -0.32,
+                        "86": 0.32,
+                        "87": 0.32,
+                        "88": -0.8,
+                        "89": 0.16,
+                        "90": -0.48
+                    },
+                    "85": {
+                        "44": -0.8,
+                        "46": -0.8,
+                        "65": -1.44,
+                        "74": -0.96,
+                        "77": -0.32,
+                        "88": -0.8,
+                        "90": -0.64
+                    },
+                    "86": {
+                        "44": -5.76,
+                        "46": -5.76,
+                        "58": -2.56,
+                        "65": -4.96,
+                        "67": -2.08,
+                        "71": -2.08,
+                        "74": -3.84,
+                        "77": -0.8,
+                        "79": -2.08,
+                        "81": -2.08,
+                        "83": -1.12,
+                        "84": 0.32,
+                        "87": 0.32,
+                        "88": -0.64,
+                        "89": 0.448,
+                        "90": -0.64
+                    },
+                    "87": {
+                        "44": -4.8,
+                        "46": -4.8,
+                        "58": -2.08,
+                        "65": -4.48,
+                        "67": -1.76,
+                        "71": -1.76,
+                        "74": -4.16,
+                        "77": -0.8,
+                        "79": -1.76,
+                        "81": -1.76,
+                        "83": -0.96,
+                        "84": 0.32,
+                        "86": 0.32,
+                        "88": -0.32,
+                        "89": 0.48,
+                        "90": -0.48
+                    },
+                    "88": {
+                        "58": -0.32,
+                        "67": -2.88,
+                        "71": -2.88,
+                        "79": -2.88,
+                        "81": -2.56,
+                        "83": -0.48,
+                        "84": -0.8,
+                        "85": -0.8,
+                        "86": -0.64,
+                        "87": -0.32,
+                        "89": -0.32,
+                        "90": 0.32
+                    },
+                    "89": {
+                        "44": -5.12,
+                        "46": -5.12,
+                        "58": -3.52,
+                        "65": -4.96,
+                        "67": -2.24,
+                        "71": -2.24,
+                        "74": -4.48,
+                        "77": -0.96,
+                        "79": -2.24,
+                        "81": -2.24,
+                        "83": -1.44,
+                        "84": 0.16,
+                        "86": 0.448,
+                        "87": 0.48,
+                        "88": -0.32,
+                        "90": -0.48
+                    },
+                    "90": {
+                        "58": -0.32,
+                        "67": -1.28,
+                        "71": -1.28,
+                        "79": -1.28,
+                        "81": -1.28,
+                        "89": 0.16
+                    }
+                }
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374771"
+        },
+        "130374773": {
+            "name": "teleportable.js",
+            "type": "script",
+            "file": {
+                "filename": "__game-scripts.js",
+                "size": 19265,
+                "hash": "e3f341546ec5aa61d2430d658d5289bd",
+                "url": "__game-scripts.js"
+            },
+            "data": {
+                "scripts": {
+                    "teleportable": {
+                        "attributesOrder": [],
+                        "attributes": {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374773"
+        },
+        "130374775": {
+            "name": "drag-roll-target.js",
+            "type": "script",
+            "file": {
+                "filename": "__game-scripts.js",
+                "size": 19265,
+                "hash": "e3f341546ec5aa61d2430d658d5289bd",
+                "url": "__game-scripts.js"
+            },
+            "data": {
+                "scripts": {
+                    "dragRollTarget": {
+                        "attributesOrder": [],
+                        "attributes": {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374775"
+        },
+        "130374776": {
+            "name": "wood.jpg",
+            "type": "texture",
+            "file": {
+                "filename": "wood.jpg",
+                "hash": "7cfaaae4d5883d591d313ea9f2c3df66",
+                "size": 87641,
+                "variants": {},
+                "url": "files/assets/130374776/1/wood.jpg"
+            },
+            "data": {
+                "addressu": "repeat",
+                "addressv": "mirror",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 2,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374776"
+        },
+        "130374779": {
+            "name": "clickable.js",
+            "type": "script",
+            "file": {
+                "filename": "__game-scripts.js",
+                "size": 19265,
+                "hash": "e3f341546ec5aa61d2430d658d5289bd",
+                "url": "__game-scripts.js"
+            },
+            "data": {
+                "scripts": {
+                    "clickable": {
+                        "attributesOrder": [
+                            "cameraEntity"
+                        ],
+                        "attributes": {
+                            "cameraEntity": {
+                                "type": "entity",
+                                "title": "Camera Entity"
+                            }
+                        }
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374779"
+        },
+        "130374782": {
+            "name": "Board.json",
+            "type": "model",
+            "file": {
+                "hash": "8498c82297c0f81b78947ff3d31ce80a",
+                "size": 187293,
+                "filename": "Board.json",
+                "url": "files/assets/130374782/1/Board.json"
+            },
+            "data": {
+                "mapping": [
+                    {
+                        "material": 130374799
+                    }
+                ],
+                "area": 0
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374782"
+        },
+        "130374783": {
+            "name": "teleport.js",
+            "type": "script",
+            "file": {
+                "filename": "__game-scripts.js",
+                "size": 19265,
+                "hash": "e3f341546ec5aa61d2430d658d5289bd",
+                "url": "__game-scripts.js"
+            },
+            "data": {
+                "scripts": {
+                    "teleport": {
+                        "attributesOrder": [
+                            "target"
+                        ],
+                        "attributes": {
+                            "target": {
+                                "type": "entity",
+                                "title": "Target Entity",
+                                "description": "The target entity where we are going to teleport"
+                            }
+                        }
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374783"
+        },
+        "130374786": {
+            "name": "score-sensor.js",
+            "type": "script",
+            "file": {
+                "filename": "__game-scripts.js",
+                "size": 19265,
+                "hash": "e3f341546ec5aa61d2430d658d5289bd",
+                "url": "__game-scripts.js"
+            },
+            "data": {
+                "scripts": {
+                    "score": {
+                        "attributesOrder": [
+                            "points",
+                            "freeBall",
+                            "scoreIndicator"
+                        ],
+                        "attributes": {
+                            "points": {
+                                "type": "number",
+                                "title": "Points Value",
+                                "description": "Number of points that collision with this entitiy is worth",
+                                "default": 0
+                            },
+                            "freeBall": {
+                                "type": "boolean",
+                                "title": "Free Ball",
+                                "description": "Is a Free Ball awarded?",
+                                "default": false
+                            },
+                            "scoreIndicator": {
+                                "type": "entity",
+                                "title": "Score Indicator",
+                                "description": "Score Indicator Entity, blinks when triggered"
+                            }
+                        }
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374786"
+        },
+        "130374787": {
+            "name": "switching-textures.js",
+            "type": "script",
+            "file": {
+                "filename": "__game-scripts.js",
+                "size": 19265,
+                "hash": "e3f341546ec5aa61d2430d658d5289bd",
+                "url": "__game-scripts.js"
+            },
+            "data": {
+                "order": 100,
+                "scripts": {
+                    "switchingTextures": {
+                        "attributesOrder": [
+                            "textures",
+                            "changeOnSpin",
+                            "emissive",
+                            "textureIndex"
+                        ],
+                        "attributes": {
+                            "textures": {
+                                "type": "asset",
+                                "assetType": "texture",
+                                "array": true,
+                                "title": "Textures"
+                            },
+                            "changeOnSpin": {
+                                "type": "boolean",
+                                "default": false,
+                                "title": "Change On Spin",
+                                "description": "Whether textures should be re-assigned as the entity spins"
+                            },
+                            "emissive": {
+                                "type": "boolean",
+                                "default": false,
+                                "title": "Emissive?",
+                                "description": "Whether the textures should be assigned as emissive"
+                            },
+                            "textureIndex": {
+                                "type": "number",
+                                "default": 0,
+                                "title": "Texture Index"
+                            }
+                        }
+                    }
+                },
+                "loadingType": 0,
+                "loading": false
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374787"
+        },
+        "130374788": {
+            "name": "Platform.png",
+            "type": "texture",
+            "file": {
+                "filename": "Platform.png",
+                "hash": "69b64983bf370d81207d948a01085193",
+                "size": 2028,
+                "variants": {},
+                "url": "files/assets/130374788/1/Platform.png"
+            },
+            "data": {
+                "addressu": "clamp",
+                "addressv": "mirror",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 7,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374788"
+        },
+        "130374789": {
+            "name": "boot.js",
+            "type": "script",
+            "file": {
+                "filename": "__game-scripts.js",
+                "size": 19265,
+                "hash": "e3f341546ec5aa61d2430d658d5289bd",
+                "url": "__game-scripts.js"
+            },
+            "data": {
+                "order": 100,
+                "scripts": {
+                    "boot": {
+                        "attributesOrder": [],
+                        "attributes": {}
+                    }
+                },
+                "loadingType": 0,
+                "loading": false
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374789"
+        },
+        "130374790": {
+            "name": "platform_mat",
+            "type": "material",
+            "file": null,
+            "data": {
+                "occludeSpecular": true,
+                "useMetalness": false,
+                "specularMap": null,
+                "specularMapChannel": "rgb",
+                "heightMapOffset": [
+                    0,
+                    0
+                ],
+                "cubeMap": null,
+                "metalness": 1,
+                "depthTest": true,
+                "heightMapTiling": [
+                    1,
+                    1
+                ],
+                "bumpMapFactor": 1,
+                "aoMapChannel": "r",
+                "diffuseMapOffset": [
+                    0,
+                    0
+                ],
+                "ambient": [
+                    0.5843137502670288,
+                    0.5843137502670288,
+                    0.5843137502670288
+                ],
+                "normalMap": null,
+                "metalnessMapChannel": "r",
+                "shadowSampleType": 1,
+                "ambientTint": false,
+                "depthWrite": true,
+                "lightMapChannel": "rgb",
+                "glossMap": null,
+                "emissiveMapTint": false,
+                "opacityMapOffset": [
+                    0,
+                    0
+                ],
+                "glossMapOffset": [
+                    0,
+                    0
+                ],
+                "reflectivity": 1,
+                "normalMapTiling": [
+                    1,
+                    1
+                ],
+                "heightMapFactor": 1,
+                "metalnessMapOffset": [
+                    0,
+                    0
+                ],
+                "heightMapChannel": "r",
+                "specularMapTiling": [
+                    1,
+                    1
+                ],
+                "opacityMapChannel": "r",
+                "aoMap": null,
+                "fresnelModel": 0,
+                "emissiveMapOffset": [
+                    0,
+                    0
+                ],
+                "emissiveMapTiling": [
+                    1,
+                    1
+                ],
+                "aoUvSet": 0,
+                "diffuseMap": 130374788,
+                "specularMapTint": false,
+                "fresnelFactor": 0,
+                "glossMapTiling": [
+                    1,
+                    1
+                ],
+                "opacity": 1,
+                "emissive": [
+                    0.5058823823928833,
+                    0.5058823823928833,
+                    0.5058823823928833
+                ],
+                "emissiveMap": null,
+                "shininess": 0,
+                "heightMap": null,
+                "specularAntialias": true,
+                "diffuseMapTiling": [
+                    1,
+                    1
+                ],
+                "lightMap": null,
+                "specularMapOffset": [
+                    0,
+                    0
+                ],
+                "blendType": 3,
+                "aoMapTiling": [
+                    1,
+                    1
+                ],
+                "metalnessMap": null,
+                "diffuse": [
+                    0.27450980392156865,
+                    0.24705882352941178,
+                    0.45098039215686275
+                ],
+                "cubeMapProjection": 0,
+                "diffuseMapChannel": "rgb",
+                "diffuseMapTint": false,
+                "lightMapOffset": [
+                    0,
+                    0
+                ],
+                "opacityMapTiling": [
+                    1,
+                    1
+                ],
+                "metalnessMapTint": false,
+                "conserveEnergy": true,
+                "opacityMap": null,
+                "sphereMap": null,
+                "refractionIndex": 0.6666666666666666,
+                "glossMapChannel": "r",
+                "specular": [
+                    0.5019607843137255,
+                    0.043137254901960784,
+                    0.043137254901960784
+                ],
+                "metalnessMapTiling": [
+                    1,
+                    1
+                ],
+                "emissiveIntensity": 0,
+                "refraction": 0,
+                "emissiveMapChannel": "rgb",
+                "aoMapOffset": [
+                    0,
+                    0
+                ],
+                "lightMapTiling": [
+                    1,
+                    1
+                ],
+                "normalMapOffset": [
+                    0,
+                    0
+                ],
+                "cull": 1,
+                "shader": "blinn",
+                "useFog": false,
+                "useSkybox": false,
+                "useGammaTonemap": true,
+                "useLighting": true,
+                "cubeMapProjectionBox": {
+                    "center": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "halfExtents": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "alphaToCoverage": false,
+                "opacityFadesSpecular": true,
+                "alphaFade": 1,
+                "clearCoat": 0,
+                "clearCoatMap": null,
+                "clearCoatMapChannel": "r",
+                "clearCoatMapUv": 0,
+                "clearCoatMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatVertexColor": false,
+                "clearCoatVertexColorChannel": "r",
+                "clearCoatGlossiness": 1,
+                "clearCoatGlossMap": null,
+                "clearCoatGlossMapChannel": "r",
+                "clearCoatGlossMapUv": 0,
+                "clearCoatGlossMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatGlossMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatGlossVertexColor": false,
+                "clearCoatGlossVertexColorChannel": "r",
+                "clearCoatBumpiness": 1,
+                "clearCoatNormalMap": null,
+                "clearCoatNormalMapUv": 0,
+                "clearCoatNormalMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatNormalMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatGloss": 1
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374790"
+        },
+        "130374791": {
+            "name": "bg.jpg",
+            "type": "texture",
+            "file": {
+                "filename": "bg.jpg",
+                "hash": "ed9c296cd547cc44b1d886e34c8f7974",
+                "size": 86875,
+                "variants": {},
+                "url": "files/assets/130374791/1/bg.jpg"
+            },
+            "data": {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374791"
+        },
+        "130374792": {
+            "name": "main.js",
+            "type": "script",
+            "file": {
+                "filename": "__game-scripts.js",
+                "size": 19265,
+                "hash": "e3f341546ec5aa61d2430d658d5289bd",
+                "url": "__game-scripts.js"
+            },
+            "data": {
+                "scripts": {
+                    "main": {
+                        "attributesOrder": [
+                            "totalBalls",
+                            "scoreEntity",
+                            "ballCountEntity",
+                            "messageEntity",
+                            "introEntity"
+                        ],
+                        "attributes": {
+                            "totalBalls": {
+                                "type": "number",
+                                "title": "Total Balls",
+                                "description": "Number of balls thrown in a game",
+                                "default": 0
+                            },
+                            "scoreEntity": {
+                                "type": "entity",
+                                "title": "Score-Keeping Text Entity"
+                            },
+                            "ballCountEntity": {
+                                "type": "entity",
+                                "title": "Ball-Counting Text Entity"
+                            },
+                            "messageEntity": {
+                                "type": "entity",
+                                "title": "Message Text Entity"
+                            },
+                            "introEntity": {
+                                "type": "entity",
+                                "title": "Intro Text Entity"
+                            }
+                        }
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374792"
+        },
+        "130374793": {
+            "name": "drag-roll.js",
+            "type": "script",
+            "file": {
+                "filename": "__game-scripts.js",
+                "size": 19265,
+                "hash": "e3f341546ec5aa61d2430d658d5289bd",
+                "url": "__game-scripts.js"
+            },
+            "data": {
+                "scripts": {
+                    "dragRoll": {
+                        "attributesOrder": [
+                            "cameraEntity",
+                            "floorEntity",
+                            "arrowEntity",
+                            "maxForce",
+                            "minForce",
+                            "dragVelXMultiplier",
+                            "dragVelZMultiplier"
+                        ],
+                        "attributes": {
+                            "cameraEntity": {
+                                "type": "entity",
+                                "title": "Camera Entity"
+                            },
+                            "maxForce": {
+                                "type": "number",
+                                "title": "Max Force",
+                                "description": "Maximum clamp value for ball force",
+                                "default": 10
+                            },
+                            "minForce": {
+                                "type": "number",
+                                "title": "Min Force",
+                                "description": "Minimum clamp value for ball force",
+                                "default": 3.5
+                            },
+                            "dragVelXMultiplier": {
+                                "type": "number",
+                                "title": "Drag Vel X Multiplier",
+                                "description": "Drag velocity factor - x axis",
+                                "default": 0.05
+                            },
+                            "floorEntity": {
+                                "type": "entity",
+                                "title": "Floor Entity"
+                            },
+                            "arrowEntity": {
+                                "type": "entity",
+                                "title": "Arrow Entity"
+                            },
+                            "dragVelZMultiplier": {
+                                "type": "number",
+                                "title": "Drag Vel Z Multiplier",
+                                "description": "Drag velocity factor - z axis",
+                                "default": 0.1
+                            }
+                        }
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374793"
+        },
+        "130374794": {
+            "name": "arrow_mat",
+            "type": "material",
+            "file": null,
+            "data": {
+                "ambient": [
+                    0,
+                    0,
+                    0
+                ],
+                "ambientTint": false,
+                "aoMap": null,
+                "aoMapChannel": "r",
+                "aoMapUv": 0,
+                "aoMapTiling": [
+                    1,
+                    1
+                ],
+                "aoMapOffset": [
+                    0,
+                    0
+                ],
+                "diffuse": [
+                    1,
+                    1,
+                    1
+                ],
+                "diffuseMap": null,
+                "diffuseMapChannel": "rgb",
+                "diffuseMapUv": 0,
+                "diffuseMapTiling": [
+                    1,
+                    1
+                ],
+                "diffuseMapOffset": [
+                    0,
+                    0
+                ],
+                "specular": [
+                    0.23,
+                    0.23,
+                    0.23
+                ],
+                "specularMap": null,
+                "specularMapChannel": "rgb",
+                "specularMapUv": 0,
+                "specularMapTiling": [
+                    1,
+                    1
+                ],
+                "specularMapOffset": [
+                    0,
+                    0
+                ],
+                "specularAntialias": true,
+                "occludeSpecular": 1,
+                "useMetalness": false,
+                "metalness": 1,
+                "metalnessMap": null,
+                "metalnessMapChannel": "r",
+                "metalnessMapUv": 0,
+                "metalnessMapTiling": [
+                    1,
+                    1
+                ],
+                "metalnessMapOffset": [
+                    0,
+                    0
+                ],
+                "conserveEnergy": true,
+                "shininess": 32,
+                "glossMap": null,
+                "glossMapChannel": "r",
+                "glossMapUv": 0,
+                "glossMapTiling": [
+                    1,
+                    1
+                ],
+                "glossMapOffset": [
+                    0,
+                    0
+                ],
+                "fresnelModel": 2,
+                "emissive": [
+                    0,
+                    0,
+                    0
+                ],
+                "emissiveMap": null,
+                "emissiveMapChannel": "rgb",
+                "emissiveMapUv": 0,
+                "emissiveMapTiling": [
+                    1,
+                    1
+                ],
+                "emissiveMapOffset": [
+                    0,
+                    0
+                ],
+                "emissiveIntensity": 1,
+                "normalMap": null,
+                "normalMapTiling": [
+                    1,
+                    1
+                ],
+                "normalMapOffset": [
+                    0,
+                    0
+                ],
+                "normalMapUv": 0,
+                "bumpMapFactor": 1,
+                "heightMap": null,
+                "heightMapChannel": "r",
+                "heightMapUv": 0,
+                "heightMapTiling": [
+                    1,
+                    1
+                ],
+                "heightMapOffset": [
+                    0,
+                    0
+                ],
+                "heightMapFactor": 1,
+                "alphaToCoverage": false,
+                "alphaTest": 0,
+                "opacity": 0.5,
+                "opacityMap": null,
+                "opacityMapChannel": "a",
+                "opacityMapUv": 0,
+                "opacityMapTiling": [
+                    1,
+                    1
+                ],
+                "opacityMapOffset": [
+                    0,
+                    0
+                ],
+                "reflectivity": 1,
+                "refraction": 0,
+                "refractionIndex": 0.6666666666666666,
+                "sphereMap": null,
+                "cubeMap": null,
+                "cubeMapProjection": 0,
+                "cubeMapProjectionBox": {
+                    "center": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "halfExtents": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "lightMap": null,
+                "lightMapChannel": "rgb",
+                "lightMapUv": 1,
+                "lightMapTiling": [
+                    1,
+                    1
+                ],
+                "lightMapOffset": [
+                    0,
+                    0
+                ],
+                "depthTest": true,
+                "depthWrite": false,
+                "cull": 1,
+                "blendType": 4,
+                "shader": "blinn",
+                "useFog": false,
+                "useLighting": true,
+                "useSkybox": false,
+                "useGammaTonemap": true,
+                "aoMapVertexColor": false,
+                "diffuseMapVertexColor": false,
+                "emissiveMapVertexColor": false,
+                "specularMapVertexColor": false,
+                "metalnessMapVertexColor": false,
+                "opacityMapVertexColor": false,
+                "glossMapVertexColor": false,
+                "lightMapVertexColor": false,
+                "diffuseMapTint": false,
+                "specularMapTint": false,
+                "emissiveMapTint": false,
+                "metalnessMapTint": false,
+                "opacityFadesSpecular": true,
+                "alphaFade": 1,
+                "clearCoat": 0,
+                "clearCoatMap": null,
+                "clearCoatMapChannel": "r",
+                "clearCoatMapUv": 0,
+                "clearCoatMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatVertexColor": false,
+                "clearCoatVertexColorChannel": "r",
+                "clearCoatGlossiness": 1,
+                "clearCoatGlossMap": null,
+                "clearCoatGlossMapChannel": "r",
+                "clearCoatGlossMapUv": 0,
+                "clearCoatGlossMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatGlossMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatGlossVertexColor": false,
+                "clearCoatGlossVertexColorChannel": "r",
+                "clearCoatBumpiness": 1,
+                "clearCoatNormalMap": null,
+                "clearCoatNormalMapUv": 0,
+                "clearCoatNormalMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatNormalMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatGloss": 1
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374794"
+        },
+        "130374795": {
+            "name": "logo_mat",
+            "type": "material",
+            "file": null,
+            "data": {
+                "ambient": [
+                    0,
+                    0,
+                    0
+                ],
+                "ambientTint": false,
+                "aoMap": null,
+                "aoMapChannel": "r",
+                "aoMapUv": 0,
+                "aoMapTiling": [
+                    1,
+                    1
+                ],
+                "aoMapOffset": [
+                    0,
+                    0
+                ],
+                "diffuse": [
+                    0.9019607843137255,
+                    0.9019607843137255,
+                    0.9019607843137255
+                ],
+                "diffuseMap": 130374805,
+                "diffuseMapChannel": "rgb",
+                "diffuseMapUv": 0,
+                "diffuseMapTiling": [
+                    1,
+                    1
+                ],
+                "diffuseMapOffset": [
+                    0,
+                    0
+                ],
+                "specular": [
+                    0.2235294117647059,
+                    0.027450980392156862,
+                    0.027450980392156862
+                ],
+                "specularMap": null,
+                "specularMapChannel": "a",
+                "specularMapUv": 0,
+                "specularMapTiling": [
+                    1,
+                    1
+                ],
+                "specularMapOffset": [
+                    0,
+                    0
+                ],
+                "specularAntialias": true,
+                "occludeSpecular": 1,
+                "useMetalness": false,
+                "metalness": 1,
+                "metalnessMap": null,
+                "metalnessMapChannel": "r",
+                "metalnessMapUv": 0,
+                "metalnessMapTiling": [
+                    1,
+                    1
+                ],
+                "metalnessMapOffset": [
+                    0,
+                    0
+                ],
+                "conserveEnergy": true,
+                "shininess": 0,
+                "glossMap": null,
+                "glossMapChannel": "a",
+                "glossMapUv": 0,
+                "glossMapTiling": [
+                    1,
+                    1
+                ],
+                "glossMapOffset": [
+                    0,
+                    0
+                ],
+                "fresnelModel": 0,
+                "emissive": [
+                    0,
+                    0,
+                    0
+                ],
+                "emissiveMap": null,
+                "emissiveMapChannel": "rgb",
+                "emissiveMapUv": 0,
+                "emissiveMapTiling": [
+                    1,
+                    1
+                ],
+                "emissiveMapOffset": [
+                    0,
+                    0
+                ],
+                "emissiveIntensity": 1,
+                "normalMap": null,
+                "normalMapTiling": [
+                    1,
+                    1
+                ],
+                "normalMapOffset": [
+                    0,
+                    0
+                ],
+                "normalMapUv": 0,
+                "bumpMapFactor": 1,
+                "heightMap": null,
+                "heightMapChannel": "r",
+                "heightMapUv": 0,
+                "heightMapTiling": [
+                    1,
+                    1
+                ],
+                "heightMapOffset": [
+                    0,
+                    0
+                ],
+                "heightMapFactor": 1,
+                "alphaToCoverage": false,
+                "alphaTest": 0.5,
+                "opacity": 1,
+                "opacityMap": 130374805,
+                "opacityMapChannel": "a",
+                "opacityMapUv": 0,
+                "opacityMapTiling": [
+                    1,
+                    1
+                ],
+                "opacityMapOffset": [
+                    0,
+                    0
+                ],
+                "reflectivity": 1,
+                "refraction": 0,
+                "refractionIndex": 0.6666666666666666,
+                "sphereMap": null,
+                "cubeMap": null,
+                "cubeMapProjection": 0,
+                "cubeMapProjectionBox": {
+                    "center": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "halfExtents": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "lightMap": null,
+                "lightMapChannel": "rgb",
+                "lightMapUv": 1,
+                "lightMapTiling": [
+                    1,
+                    1
+                ],
+                "lightMapOffset": [
+                    0,
+                    0
+                ],
+                "depthTest": true,
+                "depthWrite": true,
+                "cull": 1,
+                "blendType": 2,
+                "shader": "blinn",
+                "useFog": false,
+                "useLighting": true,
+                "useSkybox": false,
+                "useGammaTonemap": true,
+                "aoMapVertexColor": false,
+                "diffuseMapVertexColor": false,
+                "emissiveMapVertexColor": false,
+                "specularMapVertexColor": false,
+                "metalnessMapVertexColor": false,
+                "opacityMapVertexColor": false,
+                "glossMapVertexColor": false,
+                "lightMapVertexColor": false,
+                "diffuseMapTint": true,
+                "specularMapTint": false,
+                "emissiveMapTint": false,
+                "metalnessMapTint": false,
+                "opacityFadesSpecular": true,
+                "alphaFade": 1,
+                "clearCoat": 0,
+                "clearCoatMap": null,
+                "clearCoatMapChannel": "r",
+                "clearCoatMapUv": 0,
+                "clearCoatMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatVertexColor": false,
+                "clearCoatVertexColorChannel": "r",
+                "clearCoatGlossiness": 1,
+                "clearCoatGlossMap": null,
+                "clearCoatGlossMapChannel": "r",
+                "clearCoatGlossMapUv": 0,
+                "clearCoatGlossMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatGlossMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatGlossVertexColor": false,
+                "clearCoatGlossVertexColorChannel": "r",
+                "clearCoatBumpiness": 1,
+                "clearCoatNormalMap": null,
+                "clearCoatNormalMapUv": 0,
+                "clearCoatNormalMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatNormalMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatGloss": 1
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374795"
+        },
+        "130374796": {
+            "name": "follow.js",
+            "type": "script",
+            "file": {
+                "filename": "__game-scripts.js",
+                "size": 19265,
+                "hash": "e3f341546ec5aa61d2430d658d5289bd",
+                "url": "__game-scripts.js"
+            },
+            "data": {
+                "scripts": {
+                    "follow": {
+                        "attributesOrder": [
+                            "target",
+                            "distance"
+                        ],
+                        "attributes": {
+                            "target": {
+                                "type": "entity",
+                                "title": "Target",
+                                "description": "The Entity to follow"
+                            },
+                            "distance": {
+                                "type": "number",
+                                "default": 4,
+                                "title": "Distance",
+                                "description": "How far from the Entity should the follower be"
+                            }
+                        }
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374796"
+        },
+        "130374797": {
+            "name": "wood_mat",
+            "type": "material",
+            "file": null,
+            "data": {
+                "ambient": [
+                    0,
+                    0,
+                    0
+                ],
+                "ambientTint": false,
+                "aoMap": 130374776,
+                "aoMapChannel": "r",
+                "aoMapUv": 0,
+                "aoMapTiling": [
+                    1,
+                    1
+                ],
+                "aoMapOffset": [
+                    0,
+                    0
+                ],
+                "diffuse": [
+                    1,
+                    1,
+                    1
+                ],
+                "diffuseMap": 130374776,
+                "diffuseMapChannel": "rgb",
+                "diffuseMapUv": 0,
+                "diffuseMapTiling": [
+                    1,
+                    1
+                ],
+                "diffuseMapOffset": [
+                    0,
+                    0
+                ],
+                "specular": [
+                    0.792156862745098,
+                    0.6666666666666666,
+                    0.6666666666666666
+                ],
+                "specularMap": 130374776,
+                "specularMapChannel": "rgb",
+                "specularMapUv": 0,
+                "specularMapTiling": [
+                    1,
+                    1
+                ],
+                "specularMapOffset": [
+                    0,
+                    0
+                ],
+                "specularAntialias": true,
+                "occludeSpecular": 0,
+                "useMetalness": false,
+                "metalness": 1,
+                "metalnessMap": null,
+                "metalnessMapChannel": "r",
+                "metalnessMapUv": 0,
+                "metalnessMapTiling": [
+                    1,
+                    1
+                ],
+                "metalnessMapOffset": [
+                    0,
+                    0
+                ],
+                "conserveEnergy": true,
+                "shininess": 62.8,
+                "glossMap": 130374776,
+                "glossMapChannel": "r",
+                "glossMapUv": 0,
+                "glossMapTiling": [
+                    1,
+                    1
+                ],
+                "glossMapOffset": [
+                    0,
+                    0
+                ],
+                "fresnelModel": 2,
+                "emissive": [
+                    0.396078431372549,
+                    0.396078431372549,
+                    0.396078431372549
+                ],
+                "emissiveMap": 130374776,
+                "emissiveMapChannel": "rgb",
+                "emissiveMapUv": 0,
+                "emissiveMapTiling": [
+                    1,
+                    1
+                ],
+                "emissiveMapOffset": [
+                    0,
+                    0
+                ],
+                "emissiveIntensity": 3.05,
+                "normalMap": null,
+                "normalMapTiling": [
+                    1,
+                    1
+                ],
+                "normalMapOffset": [
+                    0,
+                    0
+                ],
+                "normalMapUv": 0,
+                "bumpMapFactor": 1,
+                "heightMap": null,
+                "heightMapChannel": "r",
+                "heightMapUv": 0,
+                "heightMapTiling": [
+                    1,
+                    1
+                ],
+                "heightMapOffset": [
+                    0,
+                    0
+                ],
+                "heightMapFactor": 1,
+                "alphaToCoverage": false,
+                "alphaTest": 0,
+                "opacity": 1,
+                "opacityMap": null,
+                "opacityMapChannel": "r",
+                "opacityMapUv": 0,
+                "opacityMapTiling": [
+                    1,
+                    1
+                ],
+                "opacityMapOffset": [
+                    0,
+                    0
+                ],
+                "reflectivity": 1,
+                "refraction": 0,
+                "refractionIndex": 0.6666666666666666,
+                "sphereMap": null,
+                "cubeMap": null,
+                "cubeMapProjection": 0,
+                "cubeMapProjectionBox": {
+                    "center": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "halfExtents": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "lightMap": null,
+                "lightMapChannel": "rgb",
+                "lightMapUv": 1,
+                "lightMapTiling": [
+                    1,
+                    1
+                ],
+                "lightMapOffset": [
+                    0,
+                    0
+                ],
+                "depthTest": true,
+                "depthWrite": true,
+                "cull": 1,
+                "blendType": 3,
+                "shader": "blinn",
+                "useFog": true,
+                "useLighting": true,
+                "useSkybox": true,
+                "useGammaTonemap": true,
+                "aoMapVertexColor": false,
+                "diffuseMapVertexColor": false,
+                "emissiveMapVertexColor": false,
+                "specularMapVertexColor": false,
+                "metalnessMapVertexColor": false,
+                "opacityMapVertexColor": false,
+                "glossMapVertexColor": false,
+                "lightMapVertexColor": false,
+                "diffuseMapTint": false,
+                "specularMapTint": true,
+                "emissiveMapTint": true,
+                "metalnessMapTint": false,
+                "opacityFadesSpecular": true,
+                "alphaFade": 1,
+                "clearCoat": 0,
+                "clearCoatMap": null,
+                "clearCoatMapChannel": "r",
+                "clearCoatMapUv": 0,
+                "clearCoatMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatVertexColor": false,
+                "clearCoatVertexColorChannel": "r",
+                "clearCoatGlossiness": 1,
+                "clearCoatGlossMap": null,
+                "clearCoatGlossMapChannel": "r",
+                "clearCoatGlossMapUv": 0,
+                "clearCoatGlossMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatGlossMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatGlossVertexColor": false,
+                "clearCoatGlossVertexColorChannel": "r",
+                "clearCoatBumpiness": 1,
+                "clearCoatNormalMap": null,
+                "clearCoatNormalMapUv": 0,
+                "clearCoatNormalMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatNormalMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatGloss": 1
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374797"
+        },
+        "130374798": {
+            "name": "loading-screen.js",
+            "type": "script",
+            "file": {
+                "filename": "loading-screen.js",
+                "size": 3206,
+                "hash": "3b3200cf5ce973c4dc9cb16bef3d2660",
+                "url": "files/assets/130374798/1/loading-screen.js"
+            },
+            "data": {
+                "scripts": {},
+                "loading": true,
+                "loadingType": 0
+            },
+            "preload": false,
+            "tags": [],
+            "i18n": {},
+            "id": "130374798"
+        },
+        "130374799": {
+            "name": "board_mat",
+            "type": "material",
+            "file": null,
+            "data": {
+                "ambient": [
+                    0,
+                    0,
+                    0
+                ],
+                "ambientTint": false,
+                "aoMap": null,
+                "aoMapChannel": "r",
+                "aoMapUv": 0,
+                "aoMapTiling": [
+                    1,
+                    1
+                ],
+                "aoMapOffset": [
+                    0,
+                    0
+                ],
+                "diffuse": [
+                    0.9725490196078431,
+                    0.9725490196078431,
+                    0.9725490196078431
+                ],
+                "diffuseMap": null,
+                "diffuseMapChannel": "rgb",
+                "diffuseMapUv": 0,
+                "diffuseMapTiling": [
+                    1,
+                    1
+                ],
+                "diffuseMapOffset": [
+                    0,
+                    0
+                ],
+                "specular": [
+                    0.5294117647058824,
+                    0.2196078431372549,
+                    0.2196078431372549
+                ],
+                "specularMap": null,
+                "specularMapChannel": "rgb",
+                "specularMapUv": 0,
+                "specularMapTiling": [
+                    1,
+                    1
+                ],
+                "specularMapOffset": [
+                    0,
+                    0
+                ],
+                "specularAntialias": true,
+                "occludeSpecular": 1,
+                "useMetalness": false,
+                "metalness": 1,
+                "metalnessMap": null,
+                "metalnessMapChannel": "r",
+                "metalnessMapUv": 0,
+                "metalnessMapTiling": [
+                    1,
+                    1
+                ],
+                "metalnessMapOffset": [
+                    0,
+                    0
+                ],
+                "conserveEnergy": true,
+                "shininess": 100,
+                "glossMap": null,
+                "glossMapChannel": "r",
+                "glossMapUv": 0,
+                "glossMapTiling": [
+                    1,
+                    1
+                ],
+                "glossMapOffset": [
+                    0,
+                    0
+                ],
+                "fresnelModel": 0,
+                "emissive": [
+                    0.3764705882352941,
+                    0.19607843137254902,
+                    0.19607843137254902
+                ],
+                "emissiveMap": null,
+                "emissiveMapChannel": "rgb",
+                "emissiveMapUv": 0,
+                "emissiveMapTiling": [
+                    1,
+                    1
+                ],
+                "emissiveMapOffset": [
+                    0,
+                    0
+                ],
+                "emissiveIntensity": 0,
+                "normalMap": null,
+                "normalMapTiling": [
+                    1,
+                    1
+                ],
+                "normalMapOffset": [
+                    0,
+                    0
+                ],
+                "normalMapUv": 0,
+                "bumpMapFactor": 1,
+                "heightMap": null,
+                "heightMapChannel": "r",
+                "heightMapUv": 0,
+                "heightMapTiling": [
+                    1,
+                    1
+                ],
+                "heightMapOffset": [
+                    0,
+                    0
+                ],
+                "heightMapFactor": 1,
+                "alphaToCoverage": false,
+                "alphaTest": 0,
+                "opacity": 1,
+                "opacityMap": null,
+                "opacityMapChannel": "r",
+                "opacityMapUv": 0,
+                "opacityMapTiling": [
+                    1,
+                    1
+                ],
+                "opacityMapOffset": [
+                    0,
+                    0
+                ],
+                "reflectivity": 1,
+                "refraction": 0,
+                "refractionIndex": 0.6666666666666666,
+                "sphereMap": null,
+                "cubeMap": null,
+                "cubeMapProjection": 0,
+                "cubeMapProjectionBox": {
+                    "center": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "halfExtents": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "lightMap": null,
+                "lightMapChannel": "rgb",
+                "lightMapUv": 1,
+                "lightMapTiling": [
+                    1,
+                    1
+                ],
+                "lightMapOffset": [
+                    0,
+                    0
+                ],
+                "depthTest": true,
+                "depthWrite": true,
+                "cull": 1,
+                "blendType": 3,
+                "shader": "blinn",
+                "useFog": true,
+                "useLighting": true,
+                "useSkybox": true,
+                "useGammaTonemap": true,
+                "aoMapVertexColor": false,
+                "diffuseMapVertexColor": false,
+                "emissiveMapVertexColor": false,
+                "specularMapVertexColor": false,
+                "metalnessMapVertexColor": false,
+                "opacityMapVertexColor": false,
+                "glossMapVertexColor": false,
+                "lightMapVertexColor": false,
+                "diffuseMapTint": false,
+                "specularMapTint": false,
+                "emissiveMapTint": false,
+                "metalnessMapTint": false,
+                "opacityFadesSpecular": true,
+                "alphaFade": 1,
+                "clearCoat": 0,
+                "clearCoatMap": null,
+                "clearCoatMapChannel": "r",
+                "clearCoatMapUv": 0,
+                "clearCoatMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatVertexColor": false,
+                "clearCoatVertexColorChannel": "r",
+                "clearCoatGlossiness": 1,
+                "clearCoatGlossMap": null,
+                "clearCoatGlossMapChannel": "r",
+                "clearCoatGlossMapUv": 0,
+                "clearCoatGlossMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatGlossMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatGlossVertexColor": false,
+                "clearCoatGlossVertexColorChannel": "r",
+                "clearCoatBumpiness": 1,
+                "clearCoatNormalMap": null,
+                "clearCoatNormalMapUv": 0,
+                "clearCoatNormalMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatNormalMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatGloss": 1
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374799"
+        },
+        "130374800": {
+            "name": "bg_mat",
+            "type": "material",
+            "file": null,
+            "data": {
+                "ambient": [
+                    0,
+                    0,
+                    0
+                ],
+                "ambientTint": false,
+                "aoMap": null,
+                "aoMapChannel": "r",
+                "aoMapUv": 0,
+                "aoMapTiling": [
+                    1,
+                    1
+                ],
+                "aoMapOffset": [
+                    0,
+                    0
+                ],
+                "diffuse": [
+                    1,
+                    1,
+                    1
+                ],
+                "diffuseMap": null,
+                "diffuseMapChannel": "rgb",
+                "diffuseMapUv": 0,
+                "diffuseMapTiling": [
+                    1,
+                    1
+                ],
+                "diffuseMapOffset": [
+                    0,
+                    0
+                ],
+                "specular": [
+                    0.23,
+                    0.23,
+                    0.23
+                ],
+                "specularMap": null,
+                "specularMapChannel": "rgb",
+                "specularMapUv": 0,
+                "specularMapTiling": [
+                    1,
+                    1
+                ],
+                "specularMapOffset": [
+                    0,
+                    0
+                ],
+                "specularAntialias": true,
+                "occludeSpecular": 1,
+                "useMetalness": false,
+                "metalness": 1,
+                "metalnessMap": null,
+                "metalnessMapChannel": "r",
+                "metalnessMapUv": 0,
+                "metalnessMapTiling": [
+                    1,
+                    1
+                ],
+                "metalnessMapOffset": [
+                    0,
+                    0
+                ],
+                "conserveEnergy": true,
+                "shininess": 32,
+                "glossMap": null,
+                "glossMapChannel": "r",
+                "glossMapUv": 0,
+                "glossMapTiling": [
+                    1,
+                    1
+                ],
+                "glossMapOffset": [
+                    0,
+                    0
+                ],
+                "fresnelModel": 0,
+                "emissive": [
+                    1,
+                    1,
+                    1
+                ],
+                "emissiveMap": null,
+                "emissiveMapChannel": "rgb",
+                "emissiveMapUv": 1,
+                "emissiveMapTiling": [
+                    1,
+                    1
+                ],
+                "emissiveMapOffset": [
+                    0,
+                    0
+                ],
+                "emissiveIntensity": 0,
+                "normalMap": null,
+                "normalMapTiling": [
+                    1,
+                    1
+                ],
+                "normalMapOffset": [
+                    0,
+                    0
+                ],
+                "normalMapUv": 0,
+                "bumpMapFactor": 1,
+                "heightMap": null,
+                "heightMapChannel": "r",
+                "heightMapUv": 0,
+                "heightMapTiling": [
+                    1,
+                    1
+                ],
+                "heightMapOffset": [
+                    0,
+                    0
+                ],
+                "heightMapFactor": 1,
+                "alphaToCoverage": false,
+                "alphaTest": 0,
+                "opacity": 1,
+                "opacityMap": null,
+                "opacityMapChannel": "r",
+                "opacityMapUv": 0,
+                "opacityMapTiling": [
+                    1,
+                    1
+                ],
+                "opacityMapOffset": [
+                    0,
+                    0
+                ],
+                "reflectivity": 1,
+                "refraction": 0,
+                "refractionIndex": 0.6666666666666666,
+                "sphereMap": null,
+                "cubeMap": null,
+                "cubeMapProjection": 0,
+                "cubeMapProjectionBox": {
+                    "center": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "halfExtents": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "lightMap": null,
+                "lightMapChannel": "rgb",
+                "lightMapUv": 1,
+                "lightMapTiling": [
+                    1,
+                    1
+                ],
+                "lightMapOffset": [
+                    0,
+                    0
+                ],
+                "depthTest": true,
+                "depthWrite": true,
+                "cull": 1,
+                "blendType": 3,
+                "shader": "blinn",
+                "useFog": true,
+                "useLighting": true,
+                "useSkybox": true,
+                "useGammaTonemap": true,
+                "aoMapVertexColor": false,
+                "diffuseMapVertexColor": false,
+                "emissiveMapVertexColor": false,
+                "specularMapVertexColor": false,
+                "metalnessMapVertexColor": false,
+                "opacityMapVertexColor": false,
+                "glossMapVertexColor": false,
+                "lightMapVertexColor": false,
+                "diffuseMapTint": false,
+                "specularMapTint": false,
+                "emissiveMapTint": true,
+                "metalnessMapTint": false,
+                "opacityFadesSpecular": true,
+                "alphaFade": 1,
+                "clearCoat": 0,
+                "clearCoatMap": null,
+                "clearCoatMapChannel": "r",
+                "clearCoatMapUv": 0,
+                "clearCoatMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatVertexColor": false,
+                "clearCoatVertexColorChannel": "r",
+                "clearCoatGlossiness": 1,
+                "clearCoatGlossMap": null,
+                "clearCoatGlossMapChannel": "r",
+                "clearCoatGlossMapUv": 0,
+                "clearCoatGlossMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatGlossMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatGlossVertexColor": false,
+                "clearCoatGlossVertexColorChannel": "r",
+                "clearCoatBumpiness": 1,
+                "clearCoatNormalMap": null,
+                "clearCoatNormalMapUv": 0,
+                "clearCoatNormalMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatNormalMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatGloss": 1
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374800"
+        },
+        "130374801": {
+            "name": "ball_mat",
+            "type": "material",
+            "file": null,
+            "data": {
+                "ambient": [
+                    0.7294117647058823,
+                    0.00784313725490196,
+                    0.1411764705882353
+                ],
+                "ambientTint": false,
+                "aoMap": null,
+                "aoMapChannel": "r",
+                "aoMapUv": 0,
+                "aoMapTiling": [
+                    1,
+                    1
+                ],
+                "aoMapOffset": [
+                    0,
+                    0
+                ],
+                "diffuse": [
+                    0.9215686274509803,
+                    0,
+                    0.10588235294117647
+                ],
+                "diffuseMap": null,
+                "diffuseMapChannel": "rgb",
+                "diffuseMapUv": 0,
+                "diffuseMapTiling": [
+                    1,
+                    1
+                ],
+                "diffuseMapOffset": [
+                    0,
+                    0
+                ],
+                "specular": [
+                    1,
+                    0.4549019607843137,
+                    0.5098039215686274
+                ],
+                "specularMap": null,
+                "specularMapChannel": "rgb",
+                "specularMapUv": 0,
+                "specularMapTiling": [
+                    1,
+                    1
+                ],
+                "specularMapOffset": [
+                    0,
+                    0
+                ],
+                "specularAntialias": true,
+                "occludeSpecular": 1,
+                "useMetalness": false,
+                "metalness": 1,
+                "metalnessMap": null,
+                "metalnessMapChannel": "r",
+                "metalnessMapUv": 0,
+                "metalnessMapTiling": [
+                    1,
+                    1
+                ],
+                "metalnessMapOffset": [
+                    0,
+                    0
+                ],
+                "conserveEnergy": true,
+                "shininess": 29.68,
+                "glossMap": null,
+                "glossMapChannel": "r",
+                "glossMapUv": 0,
+                "glossMapTiling": [
+                    1,
+                    1
+                ],
+                "glossMapOffset": [
+                    0,
+                    0
+                ],
+                "fresnelModel": 0,
+                "emissive": [
+                    0.7294117647058823,
+                    0.00784313725490196,
+                    0.1411764705882353
+                ],
+                "emissiveMap": null,
+                "emissiveMapChannel": "r",
+                "emissiveMapUv": 0,
+                "emissiveMapTiling": [
+                    1,
+                    1
+                ],
+                "emissiveMapOffset": [
+                    0,
+                    0
+                ],
+                "emissiveIntensity": 3.96,
+                "normalMap": 130374776,
+                "normalMapTiling": [
+                    1,
+                    1
+                ],
+                "normalMapOffset": [
+                    0,
+                    0
+                ],
+                "normalMapUv": 0,
+                "bumpMapFactor": 0.143,
+                "heightMap": null,
+                "heightMapChannel": "r",
+                "heightMapUv": 0,
+                "heightMapTiling": [
+                    1,
+                    1
+                ],
+                "heightMapOffset": [
+                    0,
+                    0
+                ],
+                "heightMapFactor": 1,
+                "alphaToCoverage": false,
+                "alphaTest": 0,
+                "opacity": 1,
+                "opacityMap": null,
+                "opacityMapChannel": "r",
+                "opacityMapUv": 0,
+                "opacityMapTiling": [
+                    1,
+                    1
+                ],
+                "opacityMapOffset": [
+                    0,
+                    0
+                ],
+                "reflectivity": 1,
+                "refraction": 0,
+                "refractionIndex": 0.6666666666666666,
+                "sphereMap": null,
+                "cubeMap": null,
+                "cubeMapProjection": 0,
+                "cubeMapProjectionBox": {
+                    "center": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "halfExtents": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "lightMap": null,
+                "lightMapChannel": "rgb",
+                "lightMapUv": 1,
+                "lightMapTiling": [
+                    1,
+                    1
+                ],
+                "lightMapOffset": [
+                    0,
+                    0
+                ],
+                "depthTest": true,
+                "depthWrite": true,
+                "cull": 1,
+                "blendType": 3,
+                "shader": "blinn",
+                "useFog": true,
+                "useLighting": true,
+                "useSkybox": true,
+                "useGammaTonemap": true,
+                "aoMapVertexColor": false,
+                "diffuseMapVertexColor": false,
+                "emissiveMapVertexColor": false,
+                "specularMapVertexColor": false,
+                "metalnessMapVertexColor": false,
+                "opacityMapVertexColor": false,
+                "glossMapVertexColor": false,
+                "lightMapVertexColor": false,
+                "diffuseMapTint": true,
+                "specularMapTint": true,
+                "emissiveMapTint": true,
+                "metalnessMapTint": false,
+                "opacityFadesSpecular": true,
+                "alphaFade": 1,
+                "clearCoat": 0,
+                "clearCoatMap": null,
+                "clearCoatMapChannel": "r",
+                "clearCoatMapUv": 0,
+                "clearCoatMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatVertexColor": false,
+                "clearCoatVertexColorChannel": "r",
+                "clearCoatGlossiness": 1,
+                "clearCoatGlossMap": null,
+                "clearCoatGlossMapChannel": "r",
+                "clearCoatGlossMapUv": 0,
+                "clearCoatGlossMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatGlossMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatGlossVertexColor": false,
+                "clearCoatGlossVertexColorChannel": "r",
+                "clearCoatBumpiness": 1,
+                "clearCoatNormalMap": null,
+                "clearCoatNormalMapUv": 0,
+                "clearCoatNormalMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatNormalMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatGloss": 1
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374801"
+        },
+        "130374802": {
+            "name": "screen_mat",
+            "type": "material",
+            "file": null,
+            "data": {
+                "ambient": [
+                    0,
+                    0,
+                    0
+                ],
+                "ambientTint": false,
+                "aoMap": null,
+                "aoMapChannel": "r",
+                "aoMapUv": 0,
+                "aoMapTiling": [
+                    1,
+                    1
+                ],
+                "aoMapOffset": [
+                    0,
+                    0
+                ],
+                "diffuse": [
+                    0.9803921568627451,
+                    0.9921568627450981,
+                    1
+                ],
+                "diffuseMap": null,
+                "diffuseMapChannel": "rgb",
+                "diffuseMapUv": 0,
+                "diffuseMapTiling": [
+                    1,
+                    1
+                ],
+                "diffuseMapOffset": [
+                    0,
+                    0
+                ],
+                "specular": [
+                    0,
+                    0,
+                    0
+                ],
+                "specularMap": null,
+                "specularMapChannel": "rgb",
+                "specularMapUv": 0,
+                "specularMapTiling": [
+                    1,
+                    1
+                ],
+                "specularMapOffset": [
+                    0,
+                    0
+                ],
+                "specularAntialias": true,
+                "occludeSpecular": 1,
+                "useMetalness": false,
+                "metalness": 1,
+                "metalnessMap": null,
+                "metalnessMapChannel": "r",
+                "metalnessMapUv": 0,
+                "metalnessMapTiling": [
+                    1,
+                    1
+                ],
+                "metalnessMapOffset": [
+                    0,
+                    0
+                ],
+                "conserveEnergy": true,
+                "shininess": 0,
+                "glossMap": null,
+                "glossMapChannel": "r",
+                "glossMapUv": 0,
+                "glossMapTiling": [
+                    1,
+                    1
+                ],
+                "glossMapOffset": [
+                    0,
+                    0
+                ],
+                "fresnelModel": 0,
+                "emissive": [
+                    1,
+                    0.7490196078431373,
+                    0
+                ],
+                "emissiveMap": null,
+                "emissiveMapChannel": "rgb",
+                "emissiveMapUv": 0,
+                "emissiveMapTiling": [
+                    1,
+                    1
+                ],
+                "emissiveMapOffset": [
+                    0,
+                    0
+                ],
+                "emissiveIntensity": 0,
+                "normalMap": null,
+                "normalMapTiling": [
+                    1,
+                    1
+                ],
+                "normalMapOffset": [
+                    0,
+                    0
+                ],
+                "normalMapUv": 0,
+                "bumpMapFactor": 1,
+                "heightMap": null,
+                "heightMapChannel": "r",
+                "heightMapUv": 0,
+                "heightMapTiling": [
+                    1,
+                    1
+                ],
+                "heightMapOffset": [
+                    0,
+                    0
+                ],
+                "heightMapFactor": 1,
+                "alphaToCoverage": false,
+                "alphaTest": 0,
+                "opacity": 1,
+                "opacityMap": null,
+                "opacityMapChannel": "r",
+                "opacityMapUv": 0,
+                "opacityMapTiling": [
+                    1,
+                    1
+                ],
+                "opacityMapOffset": [
+                    0,
+                    0
+                ],
+                "reflectivity": 1,
+                "refraction": 0,
+                "refractionIndex": 0.6666666666666666,
+                "sphereMap": null,
+                "cubeMap": null,
+                "cubeMapProjection": 0,
+                "cubeMapProjectionBox": {
+                    "center": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "halfExtents": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "lightMap": null,
+                "lightMapChannel": "rgb",
+                "lightMapUv": 1,
+                "lightMapTiling": [
+                    1,
+                    1
+                ],
+                "lightMapOffset": [
+                    0,
+                    0
+                ],
+                "depthTest": true,
+                "depthWrite": true,
+                "cull": 1,
+                "blendType": 3,
+                "shader": "blinn",
+                "useFog": true,
+                "useLighting": true,
+                "useSkybox": true,
+                "useGammaTonemap": true,
+                "aoMapVertexColor": false,
+                "diffuseMapVertexColor": false,
+                "emissiveMapVertexColor": false,
+                "specularMapVertexColor": false,
+                "metalnessMapVertexColor": false,
+                "opacityMapVertexColor": false,
+                "glossMapVertexColor": false,
+                "lightMapVertexColor": false,
+                "diffuseMapTint": false,
+                "specularMapTint": false,
+                "emissiveMapTint": false,
+                "metalnessMapTint": false,
+                "opacityFadesSpecular": true,
+                "alphaFade": 1,
+                "clearCoat": 0,
+                "clearCoatMap": null,
+                "clearCoatMapChannel": "r",
+                "clearCoatMapUv": 0,
+                "clearCoatMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatVertexColor": false,
+                "clearCoatVertexColorChannel": "r",
+                "clearCoatGlossiness": 1,
+                "clearCoatGlossMap": null,
+                "clearCoatGlossMapChannel": "r",
+                "clearCoatGlossMapUv": 0,
+                "clearCoatGlossMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatGlossMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatGlossVertexColor": false,
+                "clearCoatGlossVertexColorChannel": "r",
+                "clearCoatBumpiness": 1,
+                "clearCoatNormalMap": null,
+                "clearCoatNormalMapUv": 0,
+                "clearCoatNormalMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatNormalMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatGloss": 1
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374802"
+        },
+        "130374803": {
+            "name": "New Material",
+            "type": "material",
+            "file": null,
+            "data": {
+                "ambient": [
+                    0,
+                    0,
+                    0
+                ],
+                "ambientTint": false,
+                "aoMap": null,
+                "aoMapChannel": "r",
+                "aoMapUv": 0,
+                "aoMapTiling": [
+                    1,
+                    1
+                ],
+                "aoMapOffset": [
+                    0,
+                    0
+                ],
+                "diffuse": [
+                    0,
+                    0,
+                    0
+                ],
+                "diffuseMap": null,
+                "diffuseMapChannel": "rgb",
+                "diffuseMapUv": 0,
+                "diffuseMapTiling": [
+                    1,
+                    1
+                ],
+                "diffuseMapOffset": [
+                    0,
+                    0
+                ],
+                "specular": [
+                    0,
+                    0,
+                    0
+                ],
+                "specularMap": null,
+                "specularMapChannel": "rgb",
+                "specularMapUv": 0,
+                "specularMapTiling": [
+                    1,
+                    1
+                ],
+                "specularMapOffset": [
+                    0,
+                    0
+                ],
+                "specularAntialias": true,
+                "occludeSpecular": 1,
+                "useMetalness": false,
+                "metalness": 1,
+                "metalnessMap": null,
+                "metalnessMapChannel": "r",
+                "metalnessMapUv": 0,
+                "metalnessMapTiling": [
+                    1,
+                    1
+                ],
+                "metalnessMapOffset": [
+                    0,
+                    0
+                ],
+                "conserveEnergy": true,
+                "shininess": 0,
+                "glossMap": null,
+                "glossMapChannel": "r",
+                "glossMapUv": 0,
+                "glossMapTiling": [
+                    1,
+                    1
+                ],
+                "glossMapOffset": [
+                    0,
+                    0
+                ],
+                "fresnelModel": 0,
+                "emissive": [
+                    0,
+                    0,
+                    0
+                ],
+                "emissiveMap": null,
+                "emissiveMapChannel": "rgb",
+                "emissiveMapUv": 0,
+                "emissiveMapTiling": [
+                    1,
+                    1
+                ],
+                "emissiveMapOffset": [
+                    0,
+                    0
+                ],
+                "emissiveIntensity": 0,
+                "normalMap": null,
+                "normalMapTiling": [
+                    1,
+                    1
+                ],
+                "normalMapOffset": [
+                    0,
+                    0
+                ],
+                "normalMapUv": 0,
+                "bumpMapFactor": 1,
+                "heightMap": null,
+                "heightMapChannel": "r",
+                "heightMapUv": 0,
+                "heightMapTiling": [
+                    1,
+                    1
+                ],
+                "heightMapOffset": [
+                    0,
+                    0
+                ],
+                "heightMapFactor": 1,
+                "alphaToCoverage": false,
+                "alphaTest": 0,
+                "opacity": 0.75,
+                "opacityMap": null,
+                "opacityMapChannel": "r",
+                "opacityMapUv": 0,
+                "opacityMapTiling": [
+                    1,
+                    1
+                ],
+                "opacityMapOffset": [
+                    0,
+                    0
+                ],
+                "reflectivity": 1,
+                "refraction": 0,
+                "refractionIndex": 0.6666666666666666,
+                "sphereMap": null,
+                "cubeMap": null,
+                "cubeMapProjection": 0,
+                "cubeMapProjectionBox": {
+                    "center": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "halfExtents": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "lightMap": null,
+                "lightMapChannel": "rgb",
+                "lightMapUv": 1,
+                "lightMapTiling": [
+                    1,
+                    1
+                ],
+                "lightMapOffset": [
+                    0,
+                    0
+                ],
+                "depthTest": true,
+                "depthWrite": true,
+                "cull": 1,
+                "blendType": 2,
+                "shader": "blinn",
+                "useFog": true,
+                "useLighting": true,
+                "useSkybox": true,
+                "useGammaTonemap": true,
+                "aoMapVertexColor": false,
+                "diffuseMapVertexColor": false,
+                "emissiveMapVertexColor": false,
+                "specularMapVertexColor": false,
+                "metalnessMapVertexColor": false,
+                "opacityMapVertexColor": false,
+                "glossMapVertexColor": false,
+                "lightMapVertexColor": false,
+                "diffuseMapTint": true,
+                "specularMapTint": false,
+                "emissiveMapTint": false,
+                "metalnessMapTint": false,
+                "opacityFadesSpecular": true,
+                "alphaFade": 1,
+                "clearCoat": 0,
+                "clearCoatMap": null,
+                "clearCoatMapChannel": "r",
+                "clearCoatMapUv": 0,
+                "clearCoatMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatVertexColor": false,
+                "clearCoatVertexColorChannel": "r",
+                "clearCoatGlossiness": 1,
+                "clearCoatGlossMap": null,
+                "clearCoatGlossMapChannel": "r",
+                "clearCoatGlossMapUv": 0,
+                "clearCoatGlossMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatGlossMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatGlossVertexColor": false,
+                "clearCoatGlossVertexColorChannel": "r",
+                "clearCoatBumpiness": 1,
+                "clearCoatNormalMap": null,
+                "clearCoatNormalMapUv": 0,
+                "clearCoatNormalMapTiling": [
+                    1,
+                    1
+                ],
+                "clearCoatNormalMapOffset": [
+                    0,
+                    0
+                ],
+                "clearCoatGloss": 1
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374803"
+        },
+        "130374804": {
+            "name": "assign-number-colors.js",
+            "type": "script",
+            "file": {
+                "filename": "__game-scripts.js",
+                "size": 19265,
+                "hash": "e3f341546ec5aa61d2430d658d5289bd",
+                "url": "__game-scripts.js"
+            },
+            "data": {
+                "scripts": {
+                    "assignNumberColors": {
+                        "attributesOrder": [
+                            "colorValueIndex"
+                        ],
+                        "attributes": {
+                            "colorValueIndex": {
+                                "type": "number"
+                            }
+                        }
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374804"
+        },
+        "130374805": {
+            "name": "logo.png",
+            "type": "texture",
+            "file": {
+                "filename": "logo.png",
+                "hash": "bbb9dec8288b9d2f41164129317f53e5",
+                "size": 19676,
+                "variants": {},
+                "url": "files/assets/130374805/1/logo.png"
+            },
+            "data": {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 5,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags": [],
+            "i18n": {},
+            "id": "130374805"
+        },
+        "130375289": {
+            "name": "ammo.js",
+            "type": "script",
+            "file": {
+                "filename": "ammo.js",
+                "size": 1895438,
+                "hash": "34480c72ed787337db20c105cb9ba69d",
+                "url": "files/assets/130375289/1/ammo.js"
+            },
+            "data": {
+                "order": 100,
+                "scripts": {},
+                "loadingType": 0
+            },
+            "preload": false,
+            "tags": [],
+            "i18n": {},
+            "id": "130375289"
+        },
+        "130375290": {
+            "name": "ammo.wasm.js",
+            "type": "script",
+            "file": {
+                "filename": "ammo.wasm.js",
+                "size": 391789,
+                "hash": "6b7ab3989e4f9f17c86e44380f9181c6",
+                "url": "files/assets/130375290/1/ammo.wasm.js"
+            },
+            "data": {
+                "order": 100,
+                "scripts": {},
+                "loadingType": 0
+            },
+            "preload": false,
+            "tags": [],
+            "i18n": {},
+            "id": "130375290"
+        },
+        "130375291": {
+            "name": "ammo.wasm.wasm",
+            "type": "wasm",
+            "file": {
+                "filename": "ammo.wasm.wasm",
+                "size": 659433,
+                "hash": "a6819ea71a53e67f1dfe3e42957c2971",
+                "url": "files/assets/130375291/1/ammo.wasm.wasm"
+            },
+            "data": {
+                "moduleName": "Ammo",
+                "glueScriptId": 130375290,
+                "fallbackScriptId": 130375289,
+                "loadingType": 0
+            },
+            "preload": false,
+            "tags": [],
+            "i18n": {},
+            "id": "130375291"
+        }
+    }
+}
